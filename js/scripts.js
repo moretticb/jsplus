@@ -218,7 +218,7 @@ var tipos = ["Video", "Document"];
 function colocaItens(){
 	var thumbs = "";
 	for(var i=0;i<10;i++){
-		thumbs += makeItem(i, 'images/imgteste.jpg', 'Tutorial # '+i, '01/01/2001', 'Description of the '+i+'<sup>th</sup> tutorial.', 0, 'http://www.site'+i+'.com');
+		thumbs += makeItem(i, 'images/imgTeste.jpg', 'Tutorial # '+i, '01/01/2001', 'Description of the '+i+'<sup>th</sup> tutorial.', 0, 'http://www.site'+i+'.com');
 	}
 	$("thumbsArea").innerHTML = thumbs;
 }

@@ -69,12 +69,12 @@ ul li {
 }
 
 .topContent{
-	background-image: url("../images/topContent.png");
+	background-image: url("../images/topcontent.png");
 	height: 21px;
 }
 
 .bottomContent{
-	background-image: url("../images/bottomContent.png");
+	background-image: url("../images/bottomcontent.png");
 	height: 29px;
 }
 
