@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ test page</title>
+<script type="text/javascript" src="../js/chart.js"></script>
+<script type="text/javascript" src="../../js/jsplus.js"></script>
+
+<style>
+
+.color {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #333;
+	border-left: none;
+	border-top: none;
+}
+
+table {
+	font-size: 11px;
+	font-family: Verdana;
+	color: #666;
+	font-variant: small-caps;
+}
+
+#title {
+	text-align: center;
+	font-weight: bold;
+	font-family: "Segoe UI", "Arial Narrow", Sans-serif;
+}
+
+#loading {
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+}
+
+</style>
+
+<script>
+
+var barChartData = {
+	labels : [],
+	datasets : [
+		{
+			fillColor : "rgba(0,220,0,0)",
+			strokeColor : "rgba(0,220,0,1)",
+			data : []
+		},
+		{
+			fillColor : "rgba(220,0,0,0)",
+			strokeColor : "rgba(220,0,0,1)",
+			data : []
+		},
+		{
+			fillColor : "rgba(220,220,220,0)",
+			strokeColor : "rgba(0,0,220,1)",
+			data : []
+		}
+	]
+};
+
+var opts = {
+	bezierCurve: false,
+	pointDotRadius: 0,
+	pointDotStrokeWidth: 1,
+	scaleFontSize: 10,
+	onAnimationComplete: function(){
+		new Tween('legend', 'marginLeft', Quad.prototype.easeInOut, 50, 0, 20, false);
+		new Tween('legend', 'opacity', Quad.prototype.easeInOut, 0, 1, 20, false);
+		setTimeout(function(){
+			$('legend').style.visibility = "visible";
+		}, 100);
+	}
+}
+
+var fcount=0, frames=60;
+var eases = ['easeIn', 'easeOut', 'easeInOut'];
+
+window.onload = function (){
+	new Spriter("loading", 44, 44, '../../images/loader_gray.png', 5, 30, -1, 0);
+	
+	var behavior = window.location.toString().substr(window.location.toString().indexOf("#")+1);
+	if(behavior=="None"){
+		eases = ["easeNone"];
+		$("e2").style.display = $("e3").style.display = "none";
+		$("e1").innerHTML = "easeNone";
+	}
+	$('title').innerHTML = behavior+' interpolation of a value from 0 to 1 by time (in frames)';
+	var fillData;
+	for(var i=1;i<=frames;i++) barChartData.labels.push(i);
+	for(var i=0;i<eases.length;i++){
+		setTimeout(function(ii){
+			fillData = new AdvTween(window[behavior].prototype[eases[ii]], 0, 1, frames, false, function(value){
+				barChartData.datasets[ii].data.push(value);
+				
+				if(ii==eases.length-1)
+					fillData.onMotionFinished = function(){
+						$('load').style.display = 'none';
+						$('chart').style.display = "block";
+						var myLine = new Chart($("chart").getContext("2d")).Line(barChartData,opts);
+					}
+			});
+		}, 0, i);
+	}
+}
+</script>
+
+</head>
+<body>
+<div id="title"></div>
+<table>
+	<tr>
+    	<td height="320" width="850" style="text-align: center;"><div id="load"><div id="loading"></div><br />plotting...</div><canvas id="chart" style="display: none;" height="320" width="850"></canvas></td>
+        <td>
+        	<table id="legend" style="visibility: hidden;">
+            	<tr><th colspan="2">Legend</th></tr>
+            	<tr>
+                	<td><div class="color" style="background-color: #00DC00"></div></td>
+                    <td id="e1">easeIn</td>
+                </tr>
+                <tr id="e2">
+                	<td><div class="color" style="background-color: #DC0000"></div></td>
+                    <td>easeOut</td>
+                </tr>
+                <tr id="e3">
+                	<td><div class="color" style="background-color: #0000DC"></div></td>
+                    <td>easeInOut</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

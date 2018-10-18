@@ -1,0 +1,42 @@
+html, body {
+	margin: 0px 0px 0px 0px;
+}
+
+.gameArea {
+	display: inline-block;
+	width: 350px;
+	height: 200px;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.character {
+	display: inline-block;
+	width: 45px;
+	height: 41px;
+}
+
+.cloud1, .cloud2, .cloud3 {
+	display: inline-block;
+	background-image: url("../images/cloudspr.png");
+	background-repeat: no-repeat;
+}
+
+.cloud1 {
+	width: 42px;
+	height: 23px;
+	background-position: 0px 0px;
+}
+
+.cloud2 {
+	width: 33px;
+	height: 18px;
+	background-position: -43px 0px;
+}
+
+.cloud3 {
+	width: 16px;
+	height: 9px;
+	background-position: -77px 0px;
+}

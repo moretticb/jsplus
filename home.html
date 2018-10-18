@@ -1,0 +1,55 @@
+<!--<?php
+	$pageNum = 0;
+	$pageName = "Home";
+	require_once("./basicChanges.php");
+?>-->
+
+<script>
+	document.title = "JS+ Library - Home";
+	var links = $("divBtns").getElementsByTagName("a");
+	if(currPage > -1){
+		links[currPage].className = links[currPage].className.split("Sel").join("");
+	}
+	links[0].className = links[0].className+"Sel";
+	currPage = 0;
+</script>
+
+<div class="tituloPagina">
+    Home
+</div>
+
+<div class="pageContent">
+	<div class="txtBlock" style="width: 450px; height: 171px; float: left;">
+        <div class="simpleAndFast">Simple and fast</div>
+        <p style="text-align: justify;">JS+ is a general purpose javascript library, encompassing basic useful resources in order to build games, web applications, components and several other tools, ensuring an awesome user-experience. It is an alternative in a non-HTML5 context.</p>
+    </div>
+    <div class="blockSeparator">&nbsp;</div>
+    <div class="txtBlock" style="width: 400px; height: 171px; float: right;">
+        <div class="news">News</div>
+        <p style="text-align: justify;">Due to the rise of HTML5, JS+ project was discontinued.</p>
+    </div>
+    
+    <div class="txtBlock" style="width: 100%; clear: both;">
+        <div class="example">Library Usage Example</div>
+        <p style="text-align: justify;">JS+ can also be used on casual game development. The examples below present a comparison of the same game developed in different technologies.</p>
+        
+        <div style="width: 100%; text-align: center;">
+            <div class="gameArea">
+                <div class="realGameArea" onclick="putJSGame(this);"></div>
+                <div class="caption">
+                	JS+ deployment
+				</div>
+            </div>
+            
+            <div style="display: inline-block; width: 100px;">&nbsp;</div>
+            
+            <div class="gameArea">
+                <div class="realGameArea" onclick="putFlashGame(this);"></div>
+                <div class="caption">
+                	ADOBE FLASH deployment
+				</div>
+            </div>
+        </div>
+        
+    </div>
+</div>

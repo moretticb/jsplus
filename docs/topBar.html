@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ Library</title>
+
+<style>
+
+html, body{
+	margin: 0px 0px 0px 0px;
+	font-family: "Segoe UI Light";
+	color: #666666;
+	text-align: center;
+	background-color: #EEEEEE;
+	overflow: hidden;
+}
+
+.fillAreaLink {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+
+.barra {
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-image: url("../images/docsbar.jpg");
+	background-repeat: repeat-x;
+	text-align: left;
+}
+
+.miniLogo {
+	display: inline-block;
+	width: 22px;
+	height: 30px;
+	background-image: url("../images/jsplusbarlogo.png");
+	background-repeat: no-repeat;
+}
+
+.navBtns {
+	display: inline-block;
+	float: right;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+.navBtns div {
+	display: inline-block;
+	background-image: url("../images/navsprite.png");
+	width: 16px;
+	height: 16px;
+}
+.navBtnBack { background-position: 0px 0px; }
+.navBtnFwd { background-position: -16px 0px; }
+
+</style>
+
+</head>
+<body>
+
+<div class="barra">
+	<div class="miniLogo" style="margin-left: 10px"></div>
+    <div class="navBtns">
+        <div class="navBtnBack"><a class="fillAreaLink" title="Back" href="javascript:void(0)" onclick="history.go(-1)">Back</a></div><!--
+        --><div class="navBtnFwd"><a class="fillAreaLink" title="Forward" href="javascript:void(0)" onclick="history.go(1)">Forward;</a></div>
+	</div>
+</div>
+
+</body>
+</html>

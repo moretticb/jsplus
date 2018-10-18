@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ Library</title>
+
+<script>
+
+function getBehaviorGraph(b){
+	return '<br><iframe frameborder="0" scrolling="no" style="border: none; width: 950px; height: 350px" src="../examples/behavGraph.html#'+b+'"></iframe>';
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+
+<style>
+
+body {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="title" class="docPageTitle">
+	AJAX.AJAX( )
+    <div id="sep" class="sep"></div>
+</div>
+
+<p class="subSubTitle">Description</p>
+<p class="text">An Asynchronous Javascript and XML (AJAX) feature. It performs HTTP requests through Javascript XMLHttpRequest object.</p>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Compatibility</p>
+<div class="text">
+    <div class="ieLogo" title="Internet Explorer"></div> <div class="ffLogo" title="Firefox"></div> <div class="chrLogo" title="Chrome"></div> <div class="safLogo" title="Safari"></div> <div class="opLogo" title="Opera"></div> 
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Prototype</p>
+<div class="codeBox">
+    <pre>
+AJAX(requestType:String, requestPage:String, isAsync:Boolean, inputParameters:Object, responseManagerFunction:Function, additionalHeaders:Object)
+    </pre>
+</div>
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Parameters</p>
+<!-- <p class="text">No parameters</p> -->
+
+<table class="documentTable">
+	<tr>
+    	<th width="200px">Parameter</th>
+        <th width="100px">Type</th>
+        <th width="*">Description</th>
+    </tr>
+    <!--<tr>
+    	<td>elementId</td>
+        <td>String</td>
+        <td>The id of the element to be tweened</td>
+    </tr>-->
+    <tr><td>requestType</td><td>String</td><td>The request method (GET or POST)</td></tr><tr><td>requestPage</td><td>String</td><td>A page to be requested</td></tr><tr><td>isAsync</td><td>Boolean</td><td>True for an asynchronous request, false for a synchronous request</td></tr><tr><td>inputParameters</td><td>Object</td><td>The parameters to be sent to request page. Object properties, as well as their values are internally converted and respectively assigned to parameters and values of a query string.</td></tr><tr><td>responseManagerFunction</td><td>Function</td><td>The function to handle the obtained response. This function is similar to Javascript XMLHttpRequest.onreadystatechange event.</td></tr><tr><td>additionalHeaders</td><td>Object</td><td>Additional request headers to be added to the HTTP request.</td></tr>
+</table>
+
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Examples</p>
+
+<div class="documentBox">
+	<!--<a href="#" target="_blank" >Example 1</a>-->
+    <a href="../examples/AJAXEx1.html" target="_blank" >Example 1</a>
+</div>
+<br />
+
+
+
+<div class="codeBox">
+    <pre>
+function handleResponse(){
+	if(this.readyState == AJAX.prototype.LOADED) alert(this.responseText);
+}
+var ajax = new AJAX("POST", "requestPage.php", true, {name: "Smith", age: 22}, handleResponse);
+if(!ajax.makeRequest())
+	alert("Error on making the request.");
+    </pre>
+</div>
+
+
+<div class="sep"></div>
+
+
+</body>
+</html>

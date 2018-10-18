@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ Library</title>
+
+<script>
+
+function getBehaviorGraph(b){
+	return '<br><iframe frameborder="0" scrolling="no" style="border: none; width: 950px; height: 350px" src="../examples/behavGraph.html#'+b+'"></iframe>';
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+
+<style>
+
+body {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="title" class="docPageTitle">
+	getWeekDayFromDate( )
+    <div id="sep" class="sep"></div>
+</div>
+
+<p class="subSubTitle">Description</p>
+<p class="text">Function that returns the week day of a date.</p>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Compatibility</p>
+<div class="text">
+    <div class="ieLogo" title="Internet Explorer"></div> <div class="ffLogo" title="Firefox"></div> <div class="chrLogo" title="Chrome"></div> <div class="safLogo" title="Safari"></div> <div class="opLogo" title="Opera"></div> 
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Prototype</p>
+<div class="codeBox">
+    <pre>
+getWeekDayFromDate(d:Number, m:Number, y:Number):Number
+    </pre>
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Returns</p>
+<p class="text">
+	A number related to a week day. From 0 (Sunday) to 6 (Saturday)
+</p>
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Parameters</p>
+<!-- <p class="text">No parameters</p> -->
+
+<table class="documentTable">
+	<tr>
+    	<th width="200px">Parameter</th>
+        <th width="100px">Type</th>
+        <th width="*">Description</th>
+    </tr>
+    <!--<tr>
+    	<td>elementId</td>
+        <td>String</td>
+        <td>The id of the element to be tweened</td>
+    </tr>-->
+    <tr><td>d</td><td>Number</td><td>The day of the date</td></tr><tr><td>m</td><td>Number</td><td>The month of the date</td></tr><tr><td>y</td><td>Number</td><td>The 4-digit year of the date</td></tr>
+</table>
+
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Examples</p>
+
+
+
+<div class="codeBox">
+    <pre>
+alert(getWeekDayFromDate(28,5,1991)); //Displays "2" (Tuesday)
+    </pre>
+</div>
+
+
+<div class="sep"></div>
+
+
+</body>
+</html>

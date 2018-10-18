@@ -1,0 +1,73 @@
+<!--<?php
+	$pageNum = 1;
+	$pageName = "Download";
+	require_once("./basicChanges.php");
+?>-->
+
+<script>
+	document.title = "JS+ Library - Download";
+	var links = $("divBtns").getElementsByTagName("a");
+	if(currPage > -1){
+		links[currPage].className = links[currPage].className.split("Sel").join("");
+	}
+	links[1].className = links[1].className+"Sel";
+	currPage = 1;
+</script>
+
+<div class="tituloPagina">
+    Download
+</div>
+
+<div class="pageContent">
+	<div class="txtBlock" style="width: 400px; height: 171px; float: left;">
+        <div class="lastest">Lastest release</div>
+        <div style="margin-top: 25px;">
+            <table class="slicedBox" cellspacing="0">
+                <tr><td class="slice1">&nbsp;</td><td class="slice2">&nbsp;</td><td class="slice3">&nbsp;</td></tr>
+                <tr><td class="slice4">&nbsp;</td><td class="slice5">
+                    <div style="width: 350px; height: 30px; display: table-cell; text-align: center; vertical-align: middle;">
+                    	<a href="/js/jsplus.js" style="display: block;"><div class="downloadIcon">&nbsp;</div> Download the lastest release</a>
+                    </div>
+                </td><td class="slice6">&nbsp;</td></tr>
+                <tr><td class="slice7">&nbsp;</td><td class="slice8">&nbsp;</td><td class="slice9">&nbsp;</td></tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="blockSeparator">&nbsp;</div>
+    
+    <div class="txtBlock" style="width: 400px; height: 171px; float: right;">
+        <div class="github">Github repository</div>
+        <p style="text-align: justify;">In order to download uncompressed versions of JS+ Library, use <a href="javascript:void(0)">GIT</a> <span style="font-family: 'Courier New', Courier, monospace;">clone</span> command:</p>
+        <div style="margin-top: 25px;">
+            <table class="slicedBox" cellspacing="0">
+                <tr><td class="slice1">&nbsp;</td><td class="slice2">&nbsp;</td><td class="slice3">&nbsp;</td></tr>
+                <tr><td class="slice4">&nbsp;</td><td class="slice5">
+                    <div style="font-size: 13px; width: 376px; height: 30px; display: table-cell; vertical-align: middle; font-family: 'Courier New', Courier, monospace;">
+                    	git clone git://github.com/moretticb/jsplus.git
+                    </div>
+                </td><td class="slice6">&nbsp;</td></tr>
+                <tr><td class="slice7">&nbsp;</td><td class="slice8">&nbsp;</td><td class="slice9">&nbsp;</td></tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="txtBlock" style="width: 400px; height: 171px; clear: both; float: left;">
+        <div class="archive">Archive</div>
+        <div style="margin-top: 25px;">
+            <table class="slicedBox" cellspacing="0">
+                <tr><td class="slice1">&nbsp;</td><td class="slice2">&nbsp;</td><td class="slice3">&nbsp;</td></tr>
+                <tr><td class="slice4">&nbsp;</td><td class="slice5">
+                    <div style="width: 350px; height: 30px; display: table-cell;">
+                    	<ul>
+                        	<li>JS+ Library 1.0</li>
+                        </ul>
+                        <div class="moreLink">More</div>
+                    </div>
+                </td><td class="slice6">&nbsp;</td></tr>
+                <tr><td class="slice7">&nbsp;</td><td class="slice8">&nbsp;</td><td class="slice9">&nbsp;</td></tr>
+            </table>
+        </div>
+    </div>
+
+</div>

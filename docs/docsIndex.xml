@@ -1,0 +1,2424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jsplusDocumentation>
+<entry type="cls">
+    <name>None</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>None</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeNone</name>
+                    <parent>None</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Linear easing tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('None'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", None.prototype.easeNone, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+        </methods>
+            <events>
+            </events>
+</entry>
+            
+<entry type="cls">
+    <name>Back</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>Back</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Back</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Back easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Back'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Back.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Back</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Back easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Back'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Back.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Back</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Back easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Back'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Back.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Elastic</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>Elastic</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Elastic</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Elastic easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Elastic'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Elastic.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Elastic</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Elastic easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Elastic'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Elastic.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Elastic</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Elastic easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Elastic'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Elastic.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Quad</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>Quad</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Quad</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Quadratic easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quad'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Quad.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Quad</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Quadratic easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quad'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Quad.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Quad</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Quadratic easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quad'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Quad.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Cubic</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>Cubic</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Cubic</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Cubic easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Cubic'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Cubic.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Cubic</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Cubic easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Cubic'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Cubic.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Cubic</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Cubic easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Cubic'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Cubic.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Quartic</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>Quartic</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Quartic</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Quartic easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quartic'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Quartic.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Quartic</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Quartic easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quartic'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Quartic.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Quartic</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Quartic easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quartic'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Quartic.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Quintic</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>Quintic</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Quintic</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Quintic easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quintic'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Quintic.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Quintic</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Quintic easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quintic'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Quintic.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Quintic</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Quintic easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Quintic'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Quintic.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Sine</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>Sine</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Sine</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Sine easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Sine'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Sine.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Sine</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Sine easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Sine'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Sine.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Sine</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Sine easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Sine'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Sine.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Expo.html">Expo</a>, <a href="cls_Circ.html">Circ</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Expo</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Circ.html">Circ</a></see>
+        <constructor>
+            <name>Expo</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Circ.html">Circ</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Expo</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Exponential easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Expo'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Expo.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Circ.html">Circ</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Expo</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Exponential easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Expo'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Expo.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Circ.html">Circ</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Expo</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Exponential easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Expo'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Expo.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Circ.html">Circ</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Circ</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a></see>
+        <constructor>
+            <name>Circ</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>Tweening behavior class used in <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a> classes. This class has only static methods.</description>
+            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a></see>
+        </constructor>
+        <methods>
+                <method>
+                    <name>easeIn</name>
+                    <parent>Circ</parent>
+                    <since>1.0</since>
+                    <return>Number</return>
+                    <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                    <description>Circ easeIn tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Circ'):"(See graph)")</script>.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[new Tween("elemId", "width", Circ.prototype.easeIn, 100, 200, 10, false);]]></exampleCode>
+                    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a></see>
+                </method>
+                    <method>
+                        <name>easeOut</name>
+                        <parent>Circ</parent>
+                        <since>1.0</since>
+                        <return>Number</return>
+                        <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                        <description>Circ easeOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Circ'):"(See graph)")</script>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[new Tween("elemId", "width", Circ.prototype.easeOut, 100, 200, 10, false);]]></exampleCode>
+                        <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a></see>
+                    </method>
+                        <method>
+                            <name>easeInOut</name>
+                            <parent>Circ</parent>
+                            <since>1.0</since>
+                            <return>Number</return>
+                            <returnDesc>A number used by <a href="cls_Tween.html">Tween</a> and <a href="cls_AdvTween.html">AdvTween</a>.</returnDesc>
+                            <description>Circ easeInOut tweening behavior. This is one of <a href="http://www.robertpenner.com/easing">Robert penner</a>'s easing functions. <script>document.write(window.location.toString().indexOf("mtd")>-1?getBehaviorGraph('Circ'):"(See graph)")</script>.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[new Tween("elemId", "width", Circ.prototype.easeInOut, 100, 200, 10, false);]]></exampleCode>
+                            <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a></see>
+                        </method>
+        </methods>
+                    <events>
+                    </events>
+</entry>
+                    
+<entry type="cls">
+    <name>Tween</name>
+    <since>1.0</since>
+    <description>An interpolation feature used to animate visual elements from a CSS property. For simultaneous tweenings of more than one CSS property, create several Tween instances, respectively related to each CSS property.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>tweenEx1.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[new Tween("userPicture", "width", Quad.prototype.easeInOut, 100, 200, 10, false, {visibility: 'visible'}); //Object's width tweening that lasts 10 frames
+new Tween("userPicture", "opacity", Quad.prototype.easeInOut, 0, 1, f2m(getFPS(), 10)/1000, true); //Object's opacity tweening that lasts the equivalent of 10 frames in seconds]]></exampleCode>
+    <see><a href="cls_AdvTween.html">AdvTween</a></see>
+        <constructor>
+            <name>Tween</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>An interpolation feature used to animate visual elements from a CSS property. For simultaneous tweenings of more than one CSS property, create several Tween instances, respectively related to each CSS property.</description>
+            <attributes>
+                    <attribute>
+                        <name>DOMObjId</name>
+                        <type>String</type>
+                        <description>The DOM Element id</description>
+                    </attribute>
+                    <attribute>
+                        <name>style</name>
+                        <type>String</type>
+                        <description>The CSS property to be tweened</description>
+                    </attribute>
+                    <attribute>
+                        <name>easeType</name>
+                        <type>Function</type>
+                        <description>The tween behavior function. <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a> and <a href="cls_Circ.html">Circ</a> are examples of the available behaviors.</description>
+                    </attribute>
+                    <attribute>
+                        <name>initValue</name>
+                        <type>Number</type>
+                        <description>Initial value</description>
+                    </attribute>
+                    <attribute>
+                        <name>finalValue</name>
+                        <type>Number</type>
+                        <description>Final value</description>
+                    </attribute>
+                    <attribute>
+                        <name>duration</name>
+                        <type>Number</type>
+                        <description>The duration of the tween in frames</description>
+                    </attribute>
+                    <attribute>
+                        <name>useSeconds</name>
+                        <type>Boolean</type>
+                        <description>If true, duration is considered as seconds. Otherwise, duration is considered as frames</description>
+                    </attribute>
+                    <attribute>
+                        <name>xtraProp</name>
+                        <type>Object</type>
+                        <description>CSS properties to be set before the tweening starts</description>
+                    </attribute>
+            </attributes>
+            <exampleCode><![CDATA[new Tween("userPicture", "width", Quad.prototype.easeInOut, 100, 200, 10, false, {visibility: 'visible'}); //Object's width tweening that lasts 10 frames
+new Tween("userPicture", "opacity", Quad.prototype.easeInOut, 0, 1, f2m(getFPS(), 10)/1000, true); //Object's opacity tweening that lasts the equivalent of 10 frames in seconds]]></exampleCode>
+            <see><a href="cls_AdvTween.html">AdvTween</a></see>
+            <exampleFiles>
+                <file>tweenEx1.html</file>
+            </exampleFiles>
+        </constructor>
+        <methods>
+                <method>
+                    <name>stop</name>
+                    <parent>Tween</parent>
+                    <since>1.0</since>
+                    <return>Void</return>
+                    <description>Stops the tweening.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleFiles>
+                        <file>tweenStopEx1.html</file>
+                    </exampleFiles>
+                    <exampleCode><![CDATA[window.onload = function(){
+	var t = new Tween("logo", "width", Quad.prototype.easeInOut, 100, 200, 100, false);
+	
+	$('btn').onclick = function(){
+		t.stop();
+	}
+}]]></exampleCode>
+                    <see><a href="mtd_Tween_brk.html">brk</a>, <a href="cls_AdvTween.html">AdvTween</a></see>
+                    <attributes>
+                            <attribute>
+                                <name>callOMFF</name>
+                                <type>Boolean</type>
+                                <description>Determines whether or not the <a href="evt_Tween_onMotionFinished.html">onMotionFinished</a> event is triggered after stopping the tweening.</description>
+                            </attribute>
+                    </attributes>
+                </method>
+                    <method>
+                        <name>brk</name>
+                        <parent>Tween</parent>
+                        <since>1.0</since>
+                        <return>Void</return>
+                        <description>A more abrupt way to interrupt the tweening. In order to detect whether or not the tweening has been stopped when <a href="evt_Tween_onMotionFinished.html">onMotionFinished</a> is triggered, <a href="mtd_Tween_stop.html">stop</a> is more recommended.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleFiles>
+                            <file>tweenBrkEx1.html</file>
+                        </exampleFiles>
+                        <exampleCode><![CDATA[window.onload = function(){
+	var t = new Tween("logo", "width", Quad.prototype.easeInOut, 100, 200, 100, false);
+	
+	$('btn').onclick = function(){
+		t.brk();
+	}
+}]]></exampleCode>
+                        <see><a href="mtd_Tween_stop.html">stop</a>, <a href="cls_AdvTween.html">AdvTween</a></see>
+                        <attributes>
+                                <attribute>
+                                    <name>callOMFF</name>
+                                    <type>Boolean</type>
+                                    <description>Determines whether or not the <a href="evt_Tween_onMotionFinished.html">onMotionFinished</a> event is triggered after breaking the tweening.</description>
+                                </attribute>
+                        </attributes>
+                    </method>
+        </methods>
+                <events>
+                        <event>
+                            <name>onMotionFinished</name>
+                            <parent>Tween</parent>
+                            <since>1.0</since>
+                            <return>Void</return>
+                            <description>Event triggered when tweening is finished.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleFiles>
+                                <file>tweenOMFEx1.html</file>
+                            </exampleFiles>
+                            <exampleCode><![CDATA[var t = new Tween("logo", "width", Quad.prototype.easeInOut, 100, 200, 10, false);
+t.onMotionFinished = function(){
+	new Tween("logo", "width", Quad.prototype.easeInOut, 200, 100, 10, false);
+}]]></exampleCode>
+                            <see><a href="cls_AdvTween.html">AdvTween</a></see>
+                        </event>
+                </events>
+</entry>
+                    
+<entry type="cls">
+    <name>AdvTween</name>
+    <since>1.0</since>
+    <description>A <a href="cls_Tween.html">Tween based</a> feature used to interpolate a value that can be used to animate one or more elements.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>advTweenEx1.html</file>
+        <file>advTweenEx2.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[new AdvTween(Quad.prototype.easeInOut, 100, 200, 10, false, function(value){
+	$('objA').width = value+"px";
+	$('objB').width = value+"px";
+});]]></exampleCode>
+    <see><a href="cls_AdvTween.html">AdvTween</a></see>
+        <constructor>
+            <name>AdvTween</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>A <a href="cls_Tween.html">Tween based</a> feature used to interpolate a value that can be used to animate one or more elements.</description>
+            <attributes>
+                    <attribute>
+                        <name>easeType</name>
+                        <type>Function</type>
+                        <description>The tween behavior function. <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a> and <a href="cls_Circ.html">Circ</a> are examples of the available behaviors.</description>
+                    </attribute>
+                    <attribute>
+                        <name>initValue</name>
+                        <type>Number</type>
+                        <description>Initial value</description>
+                    </attribute>
+                    <attribute>
+                        <name>finalValue</name>
+                        <type>Number</type>
+                        <description>Final value</description>
+                    </attribute>
+                    <attribute>
+                        <name>duration</name>
+                        <type>Number</type>
+                        <description>The duration of the tween in frames</description>
+                    </attribute>
+                    <attribute>
+                        <name>useSeconds</name>
+                        <type>Boolean</type>
+                        <description>If true, duration is considered as seconds. Otherwise, duration is considered as frames</description>
+                    </attribute>
+                    <attribute>
+                        <name>theFunction</name>
+                        <type>Function</type>
+                        <description>The function to be executed every since the value changes. The current state of the interpolated value can be retrieved by the first parameter of this function.</description>
+                    </attribute>
+            </attributes>
+            <exampleCode><![CDATA[new AdvTween(Quad.prototype.easeInOut, 100, 200, 10, false, function(value){
+	$('objA').width = value+"px";
+	$('objB').width = value+"px";
+});]]></exampleCode>
+            <see><a href="cls_AdvTween.html">AdvTween</a></see>
+            <exampleFiles>
+                <file>advTweenEx1.html</file>
+                <file>advTweenEx2.html</file>
+            </exampleFiles>
+        </constructor>
+        <methods>
+                <method>
+                    <name>stop</name>
+                    <parent>AdvTween</parent>
+                    <since>1.0</since>
+                    <return>Void</return>
+                    <description>Stops the tweening. Its usage is similar to <a href="cls_Tween.html">Tween</a>'s <a href="mtd_Tween_stop.html">stop</a> method.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <see><a href="cls_AdvTween.html">AdvTween</a></see>
+                    <attributes>
+                            <attribute>
+                                <name>callOMFF</name>
+                                <type>Boolean</type>
+                                <description>Determines whether or not the <a href="evt_AdvTween_onMotionFinished.html">onMotionFinished</a> event is triggered after stopping the tweening.</description>
+                            </attribute>
+                    </attributes>
+                </method>
+        </methods>
+            <events>
+                    <event>
+                        <name>onMotionFinished</name>
+                        <parent>AdvTween</parent>
+                        <since>1.0</since>
+                        <return>Void</return>
+                        <description>Event usage similar to <a href="cls_Tween.html">Tween</a>'s <a href="evt_Tween_onMotionFinished.html">onMotionFinished</a>.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <see><a href="cls_AdvTween.html">AdvTween</a></see>
+                    </event>
+            </events>
+</entry>
+                
+<entry type="cls">
+    <name>Spriter</name>
+    <since>1.0</since>
+    <description>A sprite animator feature. Given the sprite image, total number of tiles, number of tiles per line and tile dimensions, this feature produces an animation using <a href="var_FPS.html">FPS variable</a> as the FPS rate.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>spriterEx1.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[//Creating a 64x64 animation area from a sprite image with 16 tiles that loops infinitely and begin always from frame 10
+new Spriter("spritePlace", 64, 64, "spriteImage.png", 4, 16, -1, 10, true);]]></exampleCode>
+        <constructor>
+            <name>Spriter</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>A sprite animator feature. Given the sprite image, total number of tiles, number of tiles per line and tile dimensions, this feature produces an animation using <a href="var_FPS.html">FPS variable</a> as the FPS rate.</description>
+            <attributes>
+                    <attribute>
+                        <name>DOMObjId</name>
+                        <type>String</type>
+                        <description>The DOM Element id</description>
+                    </attribute>
+                    <attribute>
+                        <name>tileWidth</name>
+                        <type>Number</type>
+                        <description>The width in pixels of the tile</description>
+                    </attribute>
+                    <attribute>
+                        <name>tileHeight</name>
+                        <type>Number</type>
+                        <description>The height in pixels of the tile</description>
+                    </attribute>
+                    <attribute>
+                        <name>spriteImageFile</name>
+                        <type>String</type>
+                        <description>The url to the sprite image</description>
+                    </attribute>
+                    <attribute>
+                        <name>tilesPerLine</name>
+                        <type>Number</type>
+                        <description>The number of tiles (frames) per line</description>
+                    </attribute>
+                    <attribute>
+                        <name>totalTiles</name>
+                        <type>Number</type>
+                        <description>The total number of tiles (frames)</description>
+                    </attribute>
+                    <attribute>
+                        <name>loops</name>
+                        <type>Number</type>
+                        <description>The number of times the animation will loop. For looping infinitely, one can use -1</description>
+                    </attribute>
+                    <attribute>
+                        <name>fromFrame</name>
+                        <type>Number</type>
+                        <description>The frame offset to start the animation</description>
+                    </attribute>
+                    <attribute>
+                        <name>keepFromFrame</name>
+                        <type>Boolean</type>
+                        <description>If true, when the animation loops, it starts from fromFrame. Otherwise, it starts from the beginning</description>
+                    </attribute>
+            </attributes>
+            <exampleCode><![CDATA[//Creating a 64x64 animation area from a sprite image with 16 tiles that loops infinitely and begin always from frame 10
+new Spriter("spritePlace", 64, 64, "spriteImage.png", 4, 16, -1, 10, true);]]></exampleCode>
+            <exampleFiles>
+                <file>spriterEx1.html</file>
+            </exampleFiles>
+        </constructor>
+        <methods>
+                <method>
+                    <name>stop</name>
+                    <parent>Spriter</parent>
+                    <since>1.0</since>
+                    <return>Void</return>
+                    <returnDesc>Nothing</returnDesc>
+                    <description>Stops playhead displaying the current frame.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleFiles>
+                        <file>spriterEx1.html</file>
+                    </exampleFiles>
+                    <exampleCode><![CDATA[var anim = new Spriter("spritePlace", 64, 64, "spriteImage.png", 4, 16, -1, 10, true);
+$('stopButton').onclick=function(){
+	anim.stop();
+}]]></exampleCode>
+                    <see><a href="mtd_Spriter_play.html">play</a>, <a href="mtd_Spriter_gotoAndPlay.html">gotoAndPlay</a>, <a href="mtd_Spriter_gotoAndStop.html">gotoAndStop</a>, <a href="mtd_Spriter_isStopped.html">isStopped</a></see>
+                </method>
+                    <method>
+                        <name>play</name>
+                        <parent>Spriter</parent>
+                        <since>1.0</since>
+                        <return>Void</return>
+                        <returnDesc>Nothing</returnDesc>
+                        <description>Activates the playhead displaying the animation from the current frame. If the animation is already playing, nothing happens.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleFiles>
+                            <file>spriterEx1.html</file>
+                        </exampleFiles>
+                        <exampleCode><![CDATA[var anim = new Spriter("spritePlace", 64, 64, "spriteImage.png", 4, 16, -1, 10, true);
+$('playButton').onclick=function(){
+	anim.play();
+}]]></exampleCode>
+                        <see><a href="mtd_Spriter_stop.html">stop</a>, <a href="mtd_Spriter_gotoAndPlay.html">gotoAndPlay</a>, <a href="mtd_Spriter_gotoAndStop.html">gotoAndStop</a>, <a href="mtd_Spriter_isStopped.html">isStopped</a></see>
+                    </method>
+                        <method>
+                            <name>isStopped</name>
+                            <parent>Spriter</parent>
+                            <since>1.0</since>
+                            <return>Boolean</return>
+                            <returnDesc>If true, the animation is stopped. Otherwise, the animation is playing.</returnDesc>
+                            <description>Indicates whether or not the animation is stopped.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleFiles>
+                                <file>spriterEx1.html</file>
+                            </exampleFiles>
+                            <exampleCode><![CDATA[var anim = new Spriter("spritePlace", 64, 64, "spriteImage.png", 4, 16, -1, 10, true);
+$('checkButton').onclick=function(){
+	if(anim.isStopped())
+		alert('Animation is stopped');
+	else
+		alert('Animation is playing');
+}]]></exampleCode>
+                            <see><a href="mtd_Spriter_play.html">play</a>, <a href="mtd_Spriter_stop.html">stop</a>, <a href="mtd_Spriter_gotoAndPlay.html">gotoAndPlay</a>, <a href="mtd_Spriter_gotoAndStop.html">gotoAndStop</a></see>
+                        </method>
+                            <method>
+                                <name>gotoAndStop</name>
+                                <parent>Spriter</parent>
+                                <since>1.0</since>
+                                <return>Void</return>
+                                <returnDesc>Nothing</returnDesc>
+                                <description>Goes to a frame and stops the animation.</description>
+                                <compatibility>
+                                    <compatItem>ie</compatItem>
+                                    <compatItem>ff</compatItem>
+                                    <compatItem>chr</compatItem>
+                                    <compatItem>saf</compatItem>
+                                    <compatItem>op</compatItem>
+                                </compatibility>
+                                <exampleFiles>
+                                    <file>spriterEx1.html</file>
+                                </exampleFiles>
+                                <exampleCode><![CDATA[var anim = new Spriter("spritePlace", 64, 64, "spriteImage.png", 4, 16, -1, 10, true);
+$('gotoStopButton').onclick=function(){
+	anim.gotoAndStop($('txtField').value);
+}]]></exampleCode>
+                                <see><a href="mtd_Spriter_play.html">play</a>, <a href="mtd_Spriter_stop.html">stop</a>, <a href="mtd_Spriter_gotoAndPlay.html">gotoAndPlay</a>, <a href="mtd_Spriter_isStopped.html">isStopped</a></see>
+                            </method>
+                                <method>
+                                    <name>gotoAndPlay</name>
+                                    <parent>Spriter</parent>
+                                    <since>1.0</since>
+                                    <return>Void</return>
+                                    <returnDesc>Nothing</returnDesc>
+                                    <description>Goes to a frame and activates the playhead.</description>
+                                    <compatibility>
+                                        <compatItem>ie</compatItem>
+                                        <compatItem>ff</compatItem>
+                                        <compatItem>chr</compatItem>
+                                        <compatItem>saf</compatItem>
+                                        <compatItem>op</compatItem>
+                                    </compatibility>
+                                    <exampleFiles>
+                                        <file>spriterEx1.html</file>
+                                    </exampleFiles>
+                                    <exampleCode><![CDATA[var anim = new Spriter("spritePlace", 64, 64, "spriteImage.png", 4, 16, -1, 10, true);
+$('gotoPlayButton').onclick=function(){
+	anim.gotoAndPlay($('txtField').value);
+}]]></exampleCode>
+                                    <see><a href="mtd_Spriter_play.html">play</a>, <a href="mtd_Spriter_stop.html">stop</a>, <a href="mtd_Spriter_gotoAndStop.html">gotoAndStop</a>, <a href="mtd_Spriter_isStopped.html">isStopped</a></see>
+                                </method>
+        </methods>
+                            <events>
+                                    <event>
+                                        <name>onFrameChange</name>
+                                        <parent>Spriter</parent>
+                                        <since>1.0</since>
+                                        <return>Void</return>
+                                        <description>Event triggered when current frame changes. Methods <a href="mtd_Spriter_gotoAndPlay.html">gotoAndPlay</a> and <a href="mtd_Spriter_gotoAndStop.html">gotoAndStop</a> also trigger this event.</description>
+                                        <compatibility>
+                                            <compatItem>ie</compatItem>
+                                            <compatItem>ff</compatItem>
+                                            <compatItem>chr</compatItem>
+                                            <compatItem>saf</compatItem>
+                                            <compatItem>op</compatItem>
+                                        </compatibility>
+                                        <exampleFiles>
+                                            <file>spriterEx1.html</file>
+                                        </exampleFiles>
+                                        <exampleCode><![CDATA[var t = new Tween("logo", "width", Quad.prototype.easeInOut, 100, 200, 10, false);
+t.onFrameChange = function(frame){
+	$('frameIndicator').innerHTML = "Frame #"+frame;
+}]]></exampleCode>
+                                        <see><a href="cls_AdvTween.html">AdvTween</a></see>
+                                        <attributes>
+                                                <attribute>
+                                                    <name>frame</name>
+                                                    <type>Number</type>
+                                                    <description>The new current frame number.</description>
+                                                </attribute>
+                                        </attributes>
+                                    </event>
+                            </events>
+</entry>
+                                
+<entry type="cls">
+    <name>AJAX</name>
+    <since>1.0</since>
+    <description>An Asynchronous Javascript and XML (AJAX) feature. It performs HTTP requests through Javascript XMLHttpRequest object.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>AJAXEx1.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[function handleResponse(){
+	if(this.readyState == AJAX.prototype.LOADED) alert(this.responseText);
+}
+var ajax = new AJAX("POST", "requestPage.php", true, {name: "Smith", age: 22}, handleResponse);
+if(!ajax.makeRequest())
+	alert("Error on making the request.");]]></exampleCode>
+    <see><a href="mtd_AJAX_makeRequest.html">makeRequest</a></see>
+        <constructor>
+            <name>AJAX</name>
+            <since>1.0</since>
+            <compatibility>
+                <compatItem>ie</compatItem>
+                <compatItem>ff</compatItem>
+                <compatItem>chr</compatItem>
+                <compatItem>saf</compatItem>
+                <compatItem>op</compatItem>
+            </compatibility>
+            <description>An Asynchronous Javascript and XML (AJAX) feature. It performs HTTP requests through Javascript XMLHttpRequest object.</description>
+            <attributes>
+                    <attribute>
+                        <name>requestType</name>
+                        <type>String</type>
+                        <description>The request method (GET or POST)</description>
+                    </attribute>
+                    <attribute>
+                        <name>requestPage</name>
+                        <type>String</type>
+                        <description>A page to be requested</description>
+                    </attribute>
+                    <attribute>
+                        <name>isAsync</name>
+                        <type>Boolean</type>
+                        <description>True for an asynchronous request, false for a synchronous request</description>
+                    </attribute>
+                    <attribute>
+                        <name>inputParameters</name>
+                        <type>Object</type>
+                        <description>The parameters to be sent to request page. Object properties, as well as their values are internally converted and respectively assigned to parameters and values of a query string.</description>
+                    </attribute>
+                    <attribute>
+                        <name>responseManagerFunction</name>
+                        <type>Function</type>
+                        <description>The function to handle the obtained response. This function is similar to Javascript XMLHttpRequest.onreadystatechange event.</description>
+                    </attribute>
+                    <attribute>
+                        <name>additionalHeaders</name>
+                        <type>Object</type>
+                        <description>Additional request headers to be added to the HTTP request.</description>
+                    </attribute>
+            </attributes>
+            <exampleCode><![CDATA[function handleResponse(){
+	if(this.readyState == AJAX.prototype.LOADED) alert(this.responseText);
+}
+var ajax = new AJAX("POST", "requestPage.php", true, {name: "Smith", age: 22}, handleResponse);
+if(!ajax.makeRequest())
+	alert("Error on making the request.");]]></exampleCode>
+            <see><a href="mtd_AJAX_makeRequest.html">makeRequest</a></see>
+            <exampleFiles>
+                <file>AJAXEx1.html</file>
+            </exampleFiles>
+        </constructor>
+        <methods>
+                <method>
+                    <name>setRequestType</name>
+                    <parent>AJAX</parent>
+                    <since>1.0</since>
+                    <return>Void</return>
+                    <returnDesc>Nothing</returnDesc>
+                    <description>Sets the request type of an <a href="cls_AJAX.html">AJAX</a> instance.</description>
+                    <compatibility>
+                        <compatItem>ie</compatItem>
+                        <compatItem>ff</compatItem>
+                        <compatItem>chr</compatItem>
+                        <compatItem>saf</compatItem>
+                        <compatItem>op</compatItem>
+                    </compatibility>
+                    <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.getRequestType()); //Displays POST
+ajax.setRequestType("GET");
+alert(ajax.getRequestType()); //Displays GET]]></exampleCode>
+                    <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getRequestType.html">getRequestType</a></see>
+                    <attributes>
+                            <attribute>
+                                <name>requestType</name>
+                                <type>String</type>
+                                <description>The request method to be set (GET or POST)</description>
+                            </attribute>
+                    </attributes>
+                </method>
+                    <method>
+                        <name>getRequestType</name>
+                        <parent>AJAX</parent>
+                        <since>1.0</since>
+                        <return>String</return>
+                        <returnDesc>A string containing a request type (GET or POST)</returnDesc>
+                        <description>Gets the current request type of an <a href="cls_AJAX.html">AJAX</a> instance.</description>
+                        <compatibility>
+                            <compatItem>ie</compatItem>
+                            <compatItem>ff</compatItem>
+                            <compatItem>chr</compatItem>
+                            <compatItem>saf</compatItem>
+                            <compatItem>op</compatItem>
+                        </compatibility>
+                        <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.getRequestType()); //Displays POST]]></exampleCode>
+                        <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_setRequestType.html">setRequestType</a></see>
+                    </method>
+                        <method>
+                            <name>setRequestPage</name>
+                            <parent>AJAX</parent>
+                            <since>1.0</since>
+                            <return>Void</return>
+                            <returnDesc>Nothing</returnDesc>
+                            <description>Sets the request page of an <a href="cls_AJAX.html">AJAX</a> instance.</description>
+                            <compatibility>
+                                <compatItem>ie</compatItem>
+                                <compatItem>ff</compatItem>
+                                <compatItem>chr</compatItem>
+                                <compatItem>saf</compatItem>
+                                <compatItem>op</compatItem>
+                            </compatibility>
+                            <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.getRequestPage()); //Displays requestPage.php
+ajax.setRequestPage("newRequestPage.php"); 
+alert(ajax.getRequestPage()); //Displays newRequestPage.php]]></exampleCode>
+                            <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getRequestPage.html">getRequestPage</a></see>
+                            <attributes>
+                                    <attribute>
+                                        <name>requestPage</name>
+                                        <type>String</type>
+                                        <description>A page to be requested</description>
+                                    </attribute>
+                            </attributes>
+                        </method>
+                            <method>
+                                <name>getRequestPage</name>
+                                <parent>AJAX</parent>
+                                <since>1.0</since>
+                                <return>String</return>
+                                <returnDesc>A string containing a request page</returnDesc>
+                                <description>Gets the current request page of an <a href="cls_AJAX.html">AJAX</a> instance.</description>
+                                <compatibility>
+                                    <compatItem>ie</compatItem>
+                                    <compatItem>ff</compatItem>
+                                    <compatItem>chr</compatItem>
+                                    <compatItem>saf</compatItem>
+                                    <compatItem>op</compatItem>
+                                </compatibility>
+                                <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.getRequestPage()); //Displays requestPage.php]]></exampleCode>
+                                <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_setRequestPage.html">setRequestPage</a></see>
+                            </method>
+                                <method>
+                                    <name>setAsync</name>
+                                    <parent>AJAX</parent>
+                                    <since>1.0</since>
+                                    <return>Void</return>
+                                    <returnDesc>Nothing</returnDesc>
+                                    <description>Sets whether or not the request page of an <a href="cls_AJAX.html">AJAX</a> instance is asynchronous.</description>
+                                    <compatibility>
+                                        <compatItem>ie</compatItem>
+                                        <compatItem>ff</compatItem>
+                                        <compatItem>chr</compatItem>
+                                        <compatItem>saf</compatItem>
+                                        <compatItem>op</compatItem>
+                                    </compatibility>
+                                    <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.isAsync()); //Displays true
+ajax.setRequestPage(false);
+alert(ajax.isAsync()); //Displays false]]></exampleCode>
+                                    <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_isAsync.html">isAsync</a></see>
+                                    <attributes>
+                                            <attribute>
+                                                <name>isAsync</name>
+                                                <type>Boolean</type>
+                                                <description>True for an asynchronous request, false for a synchronous request</description>
+                                            </attribute>
+                                    </attributes>
+                                </method>
+                                    <method>
+                                        <name>isAsync</name>
+                                        <parent>AJAX</parent>
+                                        <since>1.0</since>
+                                        <return>Boolean</return>
+                                        <returnDesc>A boolean that indicates whether or not the request is asynchronous</returnDesc>
+                                        <description>Gets a boolean that indicates whether or not the request is asynchronous.</description>
+                                        <compatibility>
+                                            <compatItem>ie</compatItem>
+                                            <compatItem>ff</compatItem>
+                                            <compatItem>chr</compatItem>
+                                            <compatItem>saf</compatItem>
+                                            <compatItem>op</compatItem>
+                                        </compatibility>
+                                        <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.isAsync()); //Displays true]]></exampleCode>
+                                        <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_setAsync.html">setAsync</a></see>
+                                    </method>
+                                        <method>
+                                            <name>setInputParameters</name>
+                                            <parent>AJAX</parent>
+                                            <since>1.0</since>
+                                            <return>Void</return>
+                                            <returnDesc>Nothing</returnDesc>
+                                            <description>Sets the query string parameters of an <a href="cls_AJAX.html">AJAX</a> instance. In order to append parameters, avoid the replacement, one can use <a href="mtd_AJAX_addParameters.html">addParameters</a> method. Since there is no getter for input parameters, one can check the current state of the data to be sent through the HTTP request using <a href="mtd_AJAX_getQueryString.html">getQueryString</a> method.</description>
+                                            <compatibility>
+                                                <compatItem>ie</compatItem>
+                                                <compatItem>ff</compatItem>
+                                                <compatItem>chr</compatItem>
+                                                <compatItem>saf</compatItem>
+                                                <compatItem>op</compatItem>
+                                            </compatibility>
+                                            <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+ajax.setInputParameters({name: "Kyle Smith", age: 22});
+alert(ajax.getQueryString()); //Displays name=Kyle%20Smith&age=22]]></exampleCode>
+                                            <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getQueryString.html">getQueryString</a>, <a href="mtd_AJAX_addParameters.html">addParameters</a></see>
+                                            <attributes>
+                                                    <attribute>
+                                                        <name>parametersObject</name>
+                                                        <type>Object</type>
+                                                        <description>The parameters to be sent to request page. Object properties, as well as their values are internally converted and respectively assigned to parameters and values of a query string.</description>
+                                                    </attribute>
+                                            </attributes>
+                                        </method>
+                                            <method>
+                                                <name>addParameters</name>
+                                                <parent>AJAX</parent>
+                                                <since>1.0</since>
+                                                <return>Void</return>
+                                                <returnDesc>Nothing</returnDesc>
+                                                <description>Appends query string parameters of an <a href="cls_AJAX.html">AJAX</a> instance. In order to avoid unnecessary accumulation of parameters, one can use <a href="mtd_AJAX_setInputParameters.html">setInputParameters</a> method. Since there is no getter for input parameters, one can check the current state of the data to be sent through the HTTP request using <a href="mtd_AJAX_getQueryString.html">getQueryString</a> method.</description>
+                                                <compatibility>
+                                                    <compatItem>ie</compatItem>
+                                                    <compatItem>ff</compatItem>
+                                                    <compatItem>chr</compatItem>
+                                                    <compatItem>saf</compatItem>
+                                                    <compatItem>op</compatItem>
+                                                </compatibility>
+                                                <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+ajax.setInputParameters({name: "Kyle Smith"});
+alert(ajax.getQueryString()); //Displays name=Kyle%20Smith
+ajax.addParameters({age: 22});
+alert(ajax.getQueryString()); //Displays name=Kyle%20Smith&age=22]]></exampleCode>
+                                                <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getQueryString.html">getQueryString</a>, <a href="mtd_AJAX_setInputParameters.html">setInputParameters</a></see>
+                                                <attributes>
+                                                        <attribute>
+                                                            <name>parametersObject</name>
+                                                            <type>Object</type>
+                                                            <description>The parameters to be sent to request page. Object properties, as well as their values are internally converted and respectively assigned to parameters and values of a query string.</description>
+                                                        </attribute>
+                                                </attributes>
+                                            </method>
+                                                <method>
+                                                    <name>clearParameters</name>
+                                                    <parent>AJAX</parent>
+                                                    <since>1.0</since>
+                                                    <return>Void</return>
+                                                    <returnDesc>Nothing</returnDesc>
+                                                    <description>Clears the parameters currently stored. Since there is no getter for input parameters, one can check the current state of the data to be sent through the HTTP request using <a href="mtd_AJAX_getQueryString.html">getQueryString</a> method.</description>
+                                                    <compatibility>
+                                                        <compatItem>ie</compatItem>
+                                                        <compatItem>ff</compatItem>
+                                                        <compatItem>chr</compatItem>
+                                                        <compatItem>saf</compatItem>
+                                                        <compatItem>op</compatItem>
+                                                    </compatibility>
+                                                    <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+ajax.setInputParameters({name: "Kyle Smith", age: 22});
+alert(ajax.getQueryString()); //Displays name=Kyle%20Smith&age=22
+ajax.clearParameters();
+alert(ajax.getQueryString()); //Displays null]]></exampleCode>
+                                                    <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getQueryString.html">getQueryString</a>, <a href="mtd_AJAX_setInputParameters.html">setInputParameters</a>, <a href="mtd_AJAX_addParameters.html">addParameters</a></see>
+                                                </method>
+                                                    <method>
+                                                        <name>getQueryString</name>
+                                                        <parent>AJAX</parent>
+                                                        <since>1.0</since>
+                                                        <return>String</return>
+                                                        <returnDesc>A query string</returnDesc>
+                                                        <description>Gets a query string of an <a href="cls_AJAX.html">AJAX</a> instance. This query string contains every data to be sent through the HTTP request.</description>
+                                                        <compatibility>
+                                                            <compatItem>ie</compatItem>
+                                                            <compatItem>ff</compatItem>
+                                                            <compatItem>chr</compatItem>
+                                                            <compatItem>saf</compatItem>
+                                                            <compatItem>op</compatItem>
+                                                        </compatibility>
+                                                        <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, {name: "Kyle Smith", age: 22}, handleResponse);
+alert(ajax.getQueryString()); //Displays name=Kyle%20Smith&age=22]]></exampleCode>
+                                                        <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getQueryString.html">getQueryString</a>, <a href="mtd_AJAX_setInputParameters.html">setInputParameters</a>, <a href="mtd_AJAX_addParameters.html">addParameters</a>, <a href="mtd_AJAX_clearParameters.html">clearParameters</a></see>
+                                                    </method>
+                                                        <method>
+                                                            <name>setResponseManagerFunction</name>
+                                                            <parent>AJAX</parent>
+                                                            <since>1.0</since>
+                                                            <return>Void</return>
+                                                            <returnDesc>Nothing</returnDesc>
+                                                            <description>Sets the function to be called when responses from HTTP requests are received.</description>
+                                                            <compatibility>
+                                                                <compatItem>ie</compatItem>
+                                                                <compatItem>ff</compatItem>
+                                                                <compatItem>chr</compatItem>
+                                                                <compatItem>saf</compatItem>
+                                                                <compatItem>op</compatItem>
+                                                            </compatibility>
+                                                            <exampleCode><![CDATA[function handleResponse() {}
+function anotherFunction() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.getResponseManagerFunction()==anotherFunction); //Displays false
+ajax.setResponseManagerFunction(anotherFunction);
+alert(ajax.getResponseManagerFunction()==anotherFunction); //Displays true]]></exampleCode>
+                                                            <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getResponseManagerFunction.html">getResponseManagerFunction</a></see>
+                                                            <attributes>
+                                                                    <attribute>
+                                                                        <name>rmFunction</name>
+                                                                        <type>Function</type>
+                                                                        <description>The function to be called for handling responses from HTTP requests.</description>
+                                                                    </attribute>
+                                                            </attributes>
+                                                        </method>
+                                                            <method>
+                                                                <name>getResponseManagerFunction</name>
+                                                                <parent>AJAX</parent>
+                                                                <since>1.0</since>
+                                                                <return>Function</return>
+                                                                <returnDesc>A function.</returnDesc>
+                                                                <description>Gets the function currently assigned to an <a href="cls_AJAX.html">AJAX</a> instance for handling responses from HTTP requests.</description>
+                                                                <compatibility>
+                                                                    <compatItem>ie</compatItem>
+                                                                    <compatItem>ff</compatItem>
+                                                                    <compatItem>chr</compatItem>
+                                                                    <compatItem>saf</compatItem>
+                                                                    <compatItem>op</compatItem>
+                                                                </compatibility>
+                                                                <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.getResponseManagerFunction()==handleResponse); //Displays true]]></exampleCode>
+                                                                <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_setResponseManagerFunction.html">setResponseManagerFunction</a></see>
+                                                            </method>
+                                                                <method>
+                                                                    <name>validate</name>
+                                                                    <parent>AJAX</parent>
+                                                                    <since>1.0</since>
+                                                                    <return>Boolean</return>
+                                                                    <returnDesc>A boolean value</returnDesc>
+                                                                    <description>A validator to check whether or not the attributes of an <a href="cls_AJAX.html">AJAX</a> instance are correctly adjusted to perform HTTP requests.</description>
+                                                                    <compatibility>
+                                                                        <compatItem>ie</compatItem>
+                                                                        <compatItem>ff</compatItem>
+                                                                        <compatItem>chr</compatItem>
+                                                                        <compatItem>saf</compatItem>
+                                                                        <compatItem>op</compatItem>
+                                                                    </compatibility>
+                                                                    <exampleCode><![CDATA[function handleResponse() {}
+var ajax = new AJAX();
+alert(ajax.validate()); //Displays false]]></exampleCode>
+                                                                    <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_makeRequest.html">makeRequest</a></see>
+                                                                </method>
+                                                                    <method>
+                                                                        <name>makeRequest</name>
+                                                                        <parent>AJAX</parent>
+                                                                        <since>1.0</since>
+                                                                        <return>Boolean</return>
+                                                                        <returnDesc>A boolean value that indicates whether or not the HTTP request</returnDesc>
+                                                                        <description>Performs an HTTP request based on the attributes of an <a href="cls_AJAX.html">AJAX</a> instance. This method internally calls <a href="mtd_AJAX_validate.html">validate</a> method before issuing an HTTP request.</description>
+                                                                        <compatibility>
+                                                                            <compatItem>ie</compatItem>
+                                                                            <compatItem>ff</compatItem>
+                                                                            <compatItem>chr</compatItem>
+                                                                            <compatItem>saf</compatItem>
+                                                                            <compatItem>op</compatItem>
+                                                                        </compatibility>
+                                                                        <exampleFiles>
+                                                                            <file>AJAXEx1.html</file>
+                                                                        </exampleFiles>
+                                                                        <exampleCode><![CDATA[function handleResponse(){
+	//This function is directly called from Javascript's XMLHttpRequest. Therefore, the keyword this, as well as their properties, are related to XMLHttpRequest object
+	var responseText = this.responseText;
+	var readyState = this.readyState;
+	if(readyState == AJAX.prototype.LOADED)
+		$("msg").innerHTML = 'Number '+$('num').value+' is '+(responseText=='1'?'odd':'even')+'.';
+	else
+		$("msg").innerHTML = "Loading";
+}
+
+var ajax = new AJAX("POST", "requestPage.php", true, {num: $("num").value}, handleResponse);
+if(!ajax.makeRequest()){
+	alert("Error on making the request.");
+}]]></exampleCode>
+                                                                        <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_validate.html">validate</a></see>
+                                                                    </method>
+                                                                        <method>
+                                                                            <name>getResponseText</name>
+                                                                            <parent>AJAX</parent>
+                                                                            <since>1.0</since>
+                                                                            <return>String</return>
+                                                                            <returnDesc>A string containing a response from an HTTP request</returnDesc>
+                                                                            <description>Gets the response arasing from an HTTP request. Commonly used in synchronous HTTP requests.</description>
+                                                                            <compatibility>
+                                                                                <compatItem>ie</compatItem>
+                                                                                <compatItem>ff</compatItem>
+                                                                                <compatItem>chr</compatItem>
+                                                                                <compatItem>saf</compatItem>
+                                                                                <compatItem>op</compatItem>
+                                                                            </compatibility>
+                                                                            <exampleCode><![CDATA[var a = new AJAX("GET", "requestPage.php?num=321", false, null, null, null);
+a.makeRequest();
+alert(a.getResponseText());]]></exampleCode>
+                                                                            <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getResponseXML.html">getResponseXML</a>, <a href="mtd_AJAX_makeRequest.html">makeRequest</a></see>
+                                                                        </method>
+                                                                            <method>
+                                                                                <name>getResponseXML</name>
+                                                                                <parent>AJAX</parent>
+                                                                                <since>1.0</since>
+                                                                                <return>Object</return>
+                                                                                <returnDesc>A XML Object</returnDesc>
+                                                                                <description>Gets the response arasing from an HTTP request in XML Object format. Commonly used in synchronous HTTP requests. This structure can be explored by accessing childNodes or using methods such as getElementsByTagName().</description>
+                                                                                <compatibility>
+                                                                                    <compatItem>ie</compatItem>
+                                                                                    <compatItem>ff</compatItem>
+                                                                                    <compatItem>chr</compatItem>
+                                                                                    <compatItem>saf</compatItem>
+                                                                                    <compatItem>op</compatItem>
+                                                                                </compatibility>
+                                                                                <exampleCode><![CDATA[var a = new AJAX("GET", "getXMLData.php?uid=31", false, null, null, null);
+a.makeRequest();
+alert(a.getResponseXML());]]></exampleCode>
+                                                                                <see><a href="cls_AJAX.html">AJAX</a>, <a href="mtd_AJAX_getResponseText.html">getResponseText</a>, <a href="mtd_AJAX_makeRequest.html">makeRequest</a></see>
+                                                                            </method>
+        </methods>
+                                                                        <events>
+                                                                        </events>
+</entry>
+                                                                        
+<entry type="var">
+    <name>canRunSWF</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Variable that indicates whether or not SWF animations can be run into the browser. The underlying algorithm was taken from <a href="http://forums.adobe.com/thread/61023">Adobe Forum</a>.</description>
+</entry>
+    
+<entry type="var">
+    <name>FPS</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Variable that stores the current FPS rate, used in <a href="cls_Tween.html">Tween</a> and <a href="cls_Spriter.html">Spriter</a> features.</description>
+    <see><a href="cls_Tween.html">Tween</a>, <a href="cls_AdvTween.html">AdvTween</a>, <a href="cls_Spriter.html">Spriter</a></see>
+</entry>
+    
+<entry type="var">
+    <name>Drag.X_AXIS</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>X axis constraint used in <a href="fun_startDrag.html">startDrag function</a>.</description>
+</entry>
+    
+<entry type="var">
+    <name>Drag.Y_AXIS</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Y axis constraint used in <a href="fun_startDrag.html">startDrag function</a>.</description>
+</entry>
+    
+<entry type="var">
+    <name>Drag.BOTH_AXIS</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>X and Y axis constraint used in <a href="fun_startDrag.html">startDrag function</a>.</description>
+</entry>
+    
+<entry type="var">
+    <name>Drag.ABSOLUTE</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Positioning mode used in <a href="fun_startDrag.html">startDrag function</a>.</description>
+</entry>
+    
+<entry type="var">
+    <name>Drag.RELATIVE</name>
+    <since>1.0</since>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <description>Positioning mode used in <a href="fun_startDrag.html">startDrag function</a>.</description>
+</entry>
+    
+<entry type="fun">
+    <name>$</name>
+    <since>1.0</since>
+    <return>Object</return>
+    <returnDesc>A DOM Object</returnDesc>
+    <description>An alias for document.getElementById(id).</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[var comparison = $('objId') == document.getElementById('objId'); //true]]></exampleCode>
+    <attributes>
+            <attribute>
+                <name>id</name>
+                <type>String</type>
+                <description>The DOM element ID.</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>getFPS</name>
+    <since>1.0</since>
+    <return>Number</return>
+    <returnDesc>The current FPS rate</returnDesc>
+    <description>Gets the current value set to <a href="var_FPS.html">FPS</a> variable.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[alert(getFPS()); //If FPS variable has not been set yet, it should display 30]]></exampleCode>
+    <see><a href="var_FPS.html">FPS</a>, <a href="fun_setFPS.html">setFPS</a></see>
+</entry>
+    
+<entry type="fun">
+    <name>setFPS</name>
+    <since>1.0</since>
+    <return>Void</return>
+    <returnDesc>Nothing</returnDesc>
+    <description>Set a new value to <a href="var_FPS.html">FPS</a> variable.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[setFPS(40); //setting the fps to 40
+alert(getFPS()); //It should display 40]]></exampleCode>
+    <see><a href="var_FPS.html">FPS</a>, <a href="fun_getFPS.html">getFPS</a>, <a href="fun_resetFPS.html">resetFPS</a></see>
+    <attributes>
+            <attribute>
+                <name>newFPS</name>
+                <type>Number</type>
+                <description>The new FPS rate to be set. See <a href="var_FPS.html">FPS variable</a> for more information.</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>resetFPS</name>
+    <since>1.0</since>
+    <return>Void</return>
+    <returnDesc>Nothing</returnDesc>
+    <description>Sets <a href="var_FPS.html">FPS</a> variable to its default value (30).</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[setFPS(40);
+alert(getFPS()); //Displays 40
+resetFPS();
+alert(getFPS()); //Displays 30]]></exampleCode>
+    <see><a href="var_FPS.html">FPS</a>, <a href="fun_getFPS.html">getFPS</a>, <a href="fun_setFPS.html">setFPS</a></see>
+</entry>
+    
+<entry type="fun">
+    <name>f2m</name>
+    <since>1.0</since>
+    <return>Number</return>
+    <returnDesc>Frames duration in milliseconds</returnDesc>
+    <description>Converts frames at a FPS rate to milliseconds.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[resetFPS();
+alert(f2m(getFPS(), 3)); //Displays 100]]></exampleCode>
+    <see><a href="fun_m2f.html">m2f</a>, <a href="fun_resetFPS.html">resetFPS</a></see>
+    <attributes>
+            <attribute>
+                <name>fps</name>
+                <type>Number</type>
+                <description>A FPS rate</description>
+            </attribute>
+            <attribute>
+                <name>frames</name>
+                <type>Number</type>
+                <description>The number of frames</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>m2f</name>
+    <since>1.0</since>
+    <return>Number</return>
+    <returnDesc>Number of frames duration</returnDesc>
+    <description>Converts milliseconds to a numbers of frames, from a FPS rate.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[resetFPS();
+alert(m2f(getFPS(), 100)); //Displays 3]]></exampleCode>
+    <see><a href="fun_m2f.html">f2m</a>, <a href="fun_resetFPS.html">resetFPS</a></see>
+    <attributes>
+            <attribute>
+                <name>fps</name>
+                <type>Number</type>
+                <description>A FPS rate</description>
+            </attribute>
+            <attribute>
+                <name>milli</name>
+                <type>Number</type>
+                <description>The millisseconds duration</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>dec2hex</name>
+    <since>1.0</since>
+    <return>String</return>
+    <returnDesc>A hexadecimal string</returnDesc>
+    <description>Converts a number from base 10 to base 16.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[alert(dec2hex(255)); //Displays FF]]></exampleCode>
+    <see><a href="fun_hex2dec.html">hex2dec</a></see>
+    <attributes>
+            <attribute>
+                <name>num</name>
+                <type>Number</type>
+                <description>The base 10 number</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>hex2dec</name>
+    <since>1.0</since>
+    <return>Number</return>
+    <returnDesc>A decimal number</returnDesc>
+    <description>Converts a number from base 16 to base 10.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[alert(hex2dec("FF")); //Displays 255]]></exampleCode>
+    <see><a href="fun_hex2dec.html">dec2hex</a></see>
+    <attributes>
+            <attribute>
+                <name>num</name>
+                <type>String</type>
+                <description>The base 16 number</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>getStyleFromObject</name>
+    <since>1.0</since>
+    <return>String</return>
+    <returnDesc>A string containing the specified style.</returnDesc>
+    <description>Function that retrieves a style (CSS property) from a DOM Element.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[var o = $('elem');
+var s = 'margin-top'; //style must be the actual CSS property that differs from javascript's css property (marginTop)
+alert(getStyleFromObject(o, s)); //Displays the top margin of "elem" element.]]></exampleCode>
+    <attributes>
+            <attribute>
+                <name>objId</name>
+                <type>String</type>
+                <description>The DOM element ID.</description>
+            </attribute>
+            <attribute>
+                <name>style</name>
+                <type>String</type>
+                <description>The CSS property to be retrieved</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>startDrag</name>
+    <since>1.0</since>
+    <return>Boolean</return>
+    <returnDesc>Returns always false, avoiding the text selection.</returnDesc>
+    <description>Function that enables dragging DOM elements. Always called at mousedown event. Use <a href="fun_stopDrag.html">stopDrag function</a> to stop dragging.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>startDragEx1.html</file>
+        <file>startDragEx2.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[$("objId").onmousedown=startDrag;
+$("objId").onmouseup=stopDrag;]]></exampleCode>
+    <see><a href="fun_stopDrag.html">stopDrag</a>, <a href="fun_onDrag.html">onDrag</a></see>
+    <attributes>
+            <attribute>
+                <name>mouseDownEventObject</name>
+                <type>Object</type>
+                <description>The event variable obtained with mousedown event.</description>
+            </attribute>
+            <attribute>
+                <name>objId</name>
+                <type>String</type>
+                <description>The DOM element ID.</description>
+            </attribute>
+            <attribute>
+                <name>keepZindex</name>
+                <type>Boolean</type>
+                <description>If true, the z-index CSS property is kept. Otherwise, the next highest value is assigned to this element. Default is true.</description>
+            </attribute>
+            <attribute>
+                <name>axisConstraint</name>
+                <type>Number</type>
+                <description>Axis restriction constraint. Constants Drag.X_AXIS, Drag.Y_AXIS or Drag.BOTH_AXIS should be used. Default is Drag.BOTH_AXIS.</description>
+            </attribute>
+            <attribute>
+                <name>relativity</name>
+                <type>Number</type>
+                <description>Indicates whether the positioning is relative or absolute. Constants Drag.RELATIVE or Drag.ABSOLUTE should be used. Default is Drag.ABSOLUTE.</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>stopDrag</name>
+    <since>1.0</since>
+    <return>Void</return>
+    <returnDesc>Nothing</returnDesc>
+    <description>Function that stops a DOM element dragging, initiated by <a href="fun_startDrag.html">startDrag function</a>. Always called at onmouseup event.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>startDragEx1.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[$("objId").onmousedown=startDrag;
+$("objId").onmouseup=stopDrag;]]></exampleCode>
+    <see><a href="fun_startDrag.html">startDrag</a>, <a href="fun_onDrag.html">onDrag</a></see>
+</entry>
+    
+<entry type="fun">
+    <name>onDrag</name>
+    <since>1.0</since>
+    <return>Boolean</return>
+    <returnDesc>true for allowing, or false for avoiding the next dragged position.</returnDesc>
+    <description>Event triggered when a DOM element is dragged using <a href="fun_startDrag.html">startDrag function</a>. This event carries one argument, which its structure is similar to onmousedown event, carrying two more properties: event.nextX and event.nextY.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>startDragEx2.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[window.onload = function(){
+	var btn = $("btn"); //the draggable element
+	var area = $("area"); //the area that contains btn
+	
+	btn.onmousedown = function(evt){
+		return startDrag(evt, this.id, true, Drag.X_AXIS, Drag.RELATIVE);
+	}
+	btn.onDrag = function(evt){
+		var rLimit = area.offsetWidth-this.offsetWidth;
+		if(evt.nextX <= 0){ //nextX: value after drag
+			this.style.left = 0;
+			return false;
+		} else if(evt.nextX > rLimit){
+			this.style.left = rLimit;
+			return false;
+		}
+	}
+	btn.onmouseup = stopDrag;
+	
+}]]></exampleCode>
+    <see><a href="fun_startDrag.html">startDrag</a>, <a href="fun_stopDrag.html">stopDrag</a></see>
+</entry>
+    
+<entry type="fun">
+    <name>onDragAfter</name>
+    <since>1.0</since>
+    <return>Void</return>
+    <returnDesc>Nothing.</returnDesc>
+    <description>Event triggered after a DOM element is dragged using <a href="fun_startDrag.html">startDrag function</a>. This event carries one argument, which its structure is similar to onmouseup event.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>startDragEx2.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[window.onload = function(){
+	var btn = $("btn"); //the draggable element
+	var area = $("area"); //the area that contains btn
+	
+	btn.onmousedown = function(evt){
+		return startDrag(evt, this.id, true, Drag.X_AXIS, Drag.RELATIVE);
+	}
+	btn.onDrag = function(evt){
+		var rLimit = area.offsetWidth-this.offsetWidth;
+		if(evt.nextX <= 0){ //nextX: value after drag
+			this.style.left = 0;
+			return false;
+		} else if(evt.nextX > rLimit){
+			this.style.left = rLimit;
+			return false;
+		}
+	}
+	btn.onDragAfter = function(evt){
+		btn.innerHTML= "position: "+this.style.left;
+	}
+	btn.onmouseup = stopDrag;
+	
+}]]></exampleCode>
+    <see><a href="fun_startDrag.html">startDrag</a>, <a href="fun_stopDrag.html">stopDrag</a></see>
+</entry>
+    
+<entry type="fun">
+    <name>getWeekDayFromDate</name>
+    <since>1.0</since>
+    <return>Number</return>
+    <returnDesc>A number related to a week day. From 0 (Sunday) to 6 (Saturday)</returnDesc>
+    <description>Function that returns the week day of a date.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[alert(getWeekDayFromDate(28,5,1991)); //Displays "2" (Tuesday)]]></exampleCode>
+    <see><a href="fun_drawCalendar.html">drawCalendar</a></see>
+    <attributes>
+            <attribute>
+                <name>d</name>
+                <type>Number</type>
+                <description>The day of the date</description>
+            </attribute>
+            <attribute>
+                <name>m</name>
+                <type>Number</type>
+                <description>The month of the date</description>
+            </attribute>
+            <attribute>
+                <name>y</name>
+                <type>Number</type>
+                <description>The 4-digit year of the date</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>drawCalendar</name>
+    <since>1.0</since>
+    <return>String</return>
+    <returnDesc>A HTML string of the calendar if asText is set as true. Otherwise, nothing is returned</returnDesc>
+    <description>Function that build the HTML code of a calendar sheet based on a specified date. The figure below illustrates the HTML DIV element hierarchy, as well as the object (to be used as an argument for parameter eventos) properties that carry its corresponding CSS classes.<br /><div style="display: block; text-align: center; font-size: inherit; font-family: inherit;"><img src="../../images/calStyles.png" /><br /><span class="text">Figure 1 - HTML DIV element hierarchy and object properties related to its CSS classes</span></div></description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleFiles>
+        <file>drawCalendarEx1.html</file>
+        <file>drawCalendarEx2.html</file>
+    </exampleFiles>
+    <exampleCode><![CDATA[function daySelected(div, year, month, day){
+	if(event.srcElement.id.indexOf("activity_")!=-1) return;
+	alert("selected date: "+new Date(year, month-1, day));
+}
+
+var d = new Date();
+//An array of calendar event objects. See the structure below
+var eventList = [
+	{day: 8, link: "javascript:alert('Activity A1')", title: "Activity A1"},
+	{day: 28, link: "javascript:alert('Activity A2')", title: "Activity A2"},
+	{day: d.getDate(), link: "javascript:alert('Today\\'s activity')", title: "Today's activity"}
+];
+//The following structure carries CSS classes for HTML elements. In order to understand which HTML elements the properties below are related to, check the figure in the description
+var styles = {dayOut: "calDiaOld", number: "calNumero", text: "calDiaTxt", day: "calDia", featured: "calDiaDest", activity: "activity", todayActivity: "todayActivity", activityArea: "activityArea"};
+drawCalendar(d.getDate(), d.getMonth()+1, d.getFullYear(), styles, eventList, false, daySelected);]]></exampleCode>
+    <attributes>
+            <attribute>
+                <name>dia</name>
+                <type>Number</type>
+                <description>The day of the date</description>
+            </attribute>
+            <attribute>
+                <name>mes</name>
+                <type>Number</type>
+                <description>The month of the date</description>
+            </attribute>
+            <attribute>
+                <name>ano</name>
+                <type>Number</type>
+                <description>The 4-digit year of the date</description>
+            </attribute>
+            <attribute>
+                <name>estilos</name>
+                <type>Object</type>
+                <description>An object containing CSS class names for the HTML elements to be built.</description>
+            </attribute>
+            <attribute>
+                <name>eventos</name>
+                <type>Object</type>
+                <description>An array of day numbers <a href="../examples/drawCalendarEx2.html" target="_blank">(Example 2)</a> or calendar event objects <a href="../examples/drawCalendarEx1.html" target="_blank">(Example 1)</a>.</description>
+            </attribute>
+            <attribute>
+                <name>asText</name>
+                <type>Boolean</type>
+                <description>If true, the HTML code is returned as a String. Otherwise, the output is written by document.write().</description>
+            </attribute>
+            <attribute>
+                <name>onDateSelected</name>
+                <type>Function</type>
+                <description>A function to be triggered when a day of the calendar is selected.</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>newXML</name>
+    <since>1.0</since>
+    <return>Oject</return>
+    <returnDesc>AXML Object</returnDesc>
+    <description>A faster way to open XML files.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[var index = newXML("bookIndex.xml");
+alert(index.childNodes[0].getElementsByTagName("title")[0]);]]></exampleCode>
+    <attributes>
+            <attribute>
+                <name>xmlDir</name>
+                <type>String</type>
+                <description>Url of the XML file.</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>SWFObject</name>
+    <since>1.0</since>
+    <return>String</return>
+    <returnDesc>An HTML string of the specified SWF file to be embedded.</returnDesc>
+    <description>A faster way to obtain the HTML code of embedded SWF files.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[$('swfContainer').innerHTML = SWFObject('game.swf', 300, 300);]]></exampleCode>
+    <attributes>
+            <attribute>
+                <name>swfDir</name>
+                <type>String</type>
+                <description>Url of the SWF file.</description>
+            </attribute>
+            <attribute>
+                <name>width</name>
+                <type>Number</type>
+                <description>Width of the embedded area.</description>
+            </attribute>
+            <attribute>
+                <name>height</name>
+                <type>Number</type>
+                <description>Height of the embedded area.</description>
+            </attribute>
+    </attributes>
+</entry>
+    
+<entry type="fun">
+    <name>drawSWF</name>
+    <since>1.0</since>
+    <return>Void</return>
+    <returnDesc>Nothing</returnDesc>
+    <description>A faster way to embed SWF files as HTML. This function makes usage of <a href="fun_SWFObject.html">SWFObject</a> and document.write functions.</description>
+    <compatibility>
+        <compatItem>ie</compatItem>
+        <compatItem>ff</compatItem>
+        <compatItem>chr</compatItem>
+        <compatItem>saf</compatItem>
+        <compatItem>op</compatItem>
+    </compatibility>
+    <exampleCode><![CDATA[drawSWF('game.swf', 300, 300);]]></exampleCode>
+    <attributes>
+            <attribute>
+                <name>swfDir</name>
+                <type>String</type>
+                <description>Url of the SWF file.</description>
+            </attribute>
+            <attribute>
+                <name>width</name>
+                <type>Number</type>
+                <description>Width of the embedded area.</description>
+            </attribute>
+            <attribute>
+                <name>height</name>
+                <type>Number</type>
+                <description>Height of the embedded area.</description>
+            </attribute>
+    </attributes>
+</entry>
+</jsplusDocumentation>

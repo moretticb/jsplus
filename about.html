@@ -1,0 +1,29 @@
+<!--<?php
+	$pageNum = 5;
+	$pageName = "About";
+	require_once("./basicChanges.php");
+?>-->
+
+<script>
+	document.title = "JS+ Library - About";
+	var links = $("divBtns").getElementsByTagName("a");
+	if(currPage > -1){
+		links[currPage].className = links[currPage].className.split("Sel").join("");
+	}
+	links[5].className = links[5].className+"Sel";
+	currPage = 5;
+</script>
+
+<div class="tituloPagina">
+    About
+</div>
+
+<div class="pageContent">
+	<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/JK83bIGZ_-4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+	<div class="gameArea" style="width: 578px; height: 358px; background-size: 578px auto;">
+		<div class="realGameAreaNoHover" style="width: 550px; height: 310px; padding-top: 5px;"><iframe style="display: inline-block;" width="550" height="315" src="https://www.youtube.com/embed/JK83bIGZ_-4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+		<div class="caption" style="width: 100%; margin-top: 15px;">
+			<div class="cbmlogo" onclick="window.location='http://www.moretticb.com'"></div>
+		</div>
+	</div>
+</div>

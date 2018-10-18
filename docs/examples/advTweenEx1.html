@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ test page - AdvTween</title>
+<script type="text/javascript" src="../../js/jsplus.js"></script>
+
+<style>
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+</style>
+
+<script>
+
+var radius = 100;
+
+function translation(){
+	var obj = $("animObj");
+	var initPoint = [obj.offsetLeft, obj.offsetTop];
+	var position = new Tween(obj.id, "left", Quad.prototype.easeInOut, initPoint[0], initPoint[0]+radius, 10, false);
+	position.onMotionFinished = function(){
+		new AdvTween(Expo.prototype.easeInOut, 0, 360, 100, false, function(value){
+			value = value*(Math.PI/180);
+			obj.style.left = (initPoint[0]+(Math.round(radius*Math.cos(value))))+"px";
+			obj.style.top = (initPoint[1]+(Math.round(radius*Math.sin(value))))+"px";
+		});
+	}
+}
+
+window.onload = function(){
+	$("animObj").style.position = "absolute";
+	
+	var center = new AdvTween(Elastic.prototype.easeInOut, 0, 1, 3, true, function(value){
+		$("animObj").style.left = (document.body.offsetWidth/2*value)+"px";
+		$("animObj").style.top = (document.body.offsetHeight/2*value)+"px";
+	});
+	center.onMotionFinished = translation;
+	
+}
+
+</script>
+
+</head>
+<body>
+<img id="animObj" src="../../images/logo.png" />
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ Library</title>
+
+<script>
+
+function getBehaviorGraph(b){
+	return '<br><iframe frameborder="0" scrolling="no" style="border: none; width: 950px; height: 350px" src="../examples/behavGraph.html#'+b+'"></iframe>';
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+
+<style>
+
+body {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="title" class="docPageTitle">
+	Tween.Tween( )
+    <div id="sep" class="sep"></div>
+</div>
+
+<p class="subSubTitle">Description</p>
+<p class="text">An interpolation feature used to animate visual elements from a CSS property. For simultaneous tweenings of more than one CSS property, create several Tween instances, respectively related to each CSS property.</p>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Compatibility</p>
+<div class="text">
+    <div class="ieLogo" title="Internet Explorer"></div> <div class="ffLogo" title="Firefox"></div> <div class="chrLogo" title="Chrome"></div> <div class="safLogo" title="Safari"></div> <div class="opLogo" title="Opera"></div> 
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Prototype</p>
+<div class="codeBox">
+    <pre>
+Tween(DOMObjId:String, style:String, easeType:Function, initValue:Number, finalValue:Number, duration:Number, useSeconds:Boolean, xtraProp:Object)
+    </pre>
+</div>
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Parameters</p>
+<!-- <p class="text">No parameters</p> -->
+
+<table class="documentTable">
+	<tr>
+    	<th width="200px">Parameter</th>
+        <th width="100px">Type</th>
+        <th width="*">Description</th>
+    </tr>
+    <!--<tr>
+    	<td>elementId</td>
+        <td>String</td>
+        <td>The id of the element to be tweened</td>
+    </tr>-->
+    <tr><td>DOMObjId</td><td>String</td><td>The DOM Element id</td></tr><tr><td>style</td><td>String</td><td>The CSS property to be tweened</td></tr><tr><td>easeType</td><td>Function</td><td>The tween behavior function. <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a> and <a href="cls_Circ.html">Circ</a> are examples of the available behaviors.</td></tr><tr><td>initValue</td><td>Number</td><td>Initial value</td></tr><tr><td>finalValue</td><td>Number</td><td>Final value</td></tr><tr><td>duration</td><td>Number</td><td>The duration of the tween in frames</td></tr><tr><td>useSeconds</td><td>Boolean</td><td>If true, duration is considered as seconds. Otherwise, duration is considered as frames</td></tr><tr><td>xtraProp</td><td>Object</td><td>CSS properties to be set before the tweening starts</td></tr>
+</table>
+
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Examples</p>
+
+<div class="documentBox">
+	<!--<a href="#" target="_blank" >Example 1</a>-->
+    <a href="../examples/tweenEx1.html" target="_blank" >Example 1</a>
+</div>
+<br />
+
+
+
+<div class="codeBox">
+    <pre>
+new Tween("userPicture", "width", Quad.prototype.easeInOut, 100, 200, 10, false, {visibility: 'visible'}); //Object's width tweening that lasts 10 frames
+new Tween("userPicture", "opacity", Quad.prototype.easeInOut, 0, 1, f2m(getFPS(), 10)/1000, true); //Object's opacity tweening that lasts the equivalent of 10 frames in seconds
+    </pre>
+</div>
+
+
+<div class="sep"></div>
+
+
+</body>
+</html>

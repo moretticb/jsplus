@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ test page - drawCalendar</title>
+<script type="text/javascript" src="../../js/jsplus.js"></script>
+
+<style>
+
+.divCal{
+	display: inline-block;
+	letter-spacing: -1px;
+	width: 800px;
+	text-align:center;
+	/*background-color: #0f0;*/
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-top: 1px solid #EFEFEF;
+	border-bottom: 1px solid #CCC;
+}
+
+.divCal .calDiaDest {}
+
+.calDia, .calDiaOld, .calDiaDest {
+	display: inline-table;
+	background-color: #EEE;
+	border: 1px solid #FFF;
+	border-right: none;
+	border-top: none;
+	width: 113px;
+	height: 70px;
+	text-align: left;
+}
+
+.activityArea {
+	display: block;
+	width: 100%;
+	height: 47px;
+	overflow: hidden;
+}
+
+.calDiaOld {
+	background-color: #DEDEDE;
+}
+
+.divCal .calDia .calNumero, .divCal .calDiaDest .calNumero, .divCal .calDiaOld .calNumero {
+	height: 20px;
+	color: #666;
+	font-size: 17px;
+	font-weight: normal;
+	padding: 3px 0px 0px 5px;
+}
+
+.divCal .calDiaDest .calNumero {
+	font-weight: bold;
+}
+
+.divCal .calDiaTxt {
+	padding-left: 5px;
+	overflow: hidden;
+	line-height: 13px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.divCal .calDiaOld .calNumero {
+	color: #AAA;
+}
+
+.divCal .calDiaDest:hover, .divCal .calDia:hover {
+	background-color: #F5F5F5;
+	cursor: pointer;
+}
+
+.divCal .todayActivity, .divCal .activity {
+	display: block;
+	text-decoration: none;
+	padding: 3px 0px 3px 0px;
+	margin-top: 1px;
+	color: #FFF;
+}
+
+.divCal .activity {
+	border-left: 3px solid #06F;
+	background-color: #09F;
+}
+
+.divCal .todayActivity {
+	border-left: 3px solid #990;
+	background-color: #9C0;
+}
+
+.divCal .todayActivity:hover {
+	border-left: 3px solid #9C0;
+	background-color: #ACE600;
+}
+
+.divCal .activity:hover {
+	background-color: #0CF;
+	border-left: 3px solid #09F;
+	font-weight: bold;
+}
+
+.weekDay {
+	display: inline-block;
+	width: 113px;
+	height: 25px;
+	text-align: left;
+	color: #666;
+	font-weight: normal;
+	text-indent: 5pt;
+	cursor: default;
+	background-color: #FEFEFE;
+	border: 1px solid #999999;
+	border-right: none;
+	border-top: none;
+}
+</style>
+
+<script>
+
+function daySelected(div, year, month, day){
+	if(event.srcElement.id.indexOf("activity_")!=-1) return;
+	alert("selected date: "+new Date(year, month-1, day));
+}
+
+</script>
+
+</head>
+<body>
+
+<div id="divCal" class="divCal">
+<div class="weekDay">Sunday</div><div class="weekDay">Monday</div><div class="weekDay">Tuesday</div><div class="weekDay">Wednesday</div><div class="weekDay">Thursday</div><div class="weekDay">Friday</div><div class="weekDay">Saturday</div>
+<script>
+	var d = new Date();
+	var eventList = [{day: 8, link: "javascript:alert('Activity A1')", title: "Activity A1"},{day: 8, link: "javascript:alert('Activity A2')", title: "Activity A2"}, {day: 28, link: "javascript:alert('Activity B')", title: "Activity B"}, {day: d.getDate(), link: "javascript:alert('Action for today\\'s activity')", title: "Today's activity"}];
+	var styles = {dayOut: "calDiaOld", number: "calNumero", text: "calDiaTxt", day: "calDia", featured: "calDiaDest", activity: "activity", todayActivity: "todayActivity", activityArea: "activityArea"};
+	drawCalendar(d.getDate(), d.getMonth()+1, d.getFullYear(), styles, eventList, false, daySelected);
+</script>
+</div>
+
+</body>
+</html>

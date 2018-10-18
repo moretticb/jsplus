@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ test page - Tween</title>
+<script type="text/javascript" src="../../js/jsplus.js"></script>
+
+<script>
+
+window.onload = function(){
+	
+	var t = new Tween("animObj", "marginLeft", Cubic.prototype.easeOut, 0, 200, 100, false);
+	t.onMotionFinished = function(){
+		alert(this.isStopped)
+	}
+	
+	$('btn').onclick=function(){
+		t.brk(true);
+	}
+	
+}
+
+</script>
+
+</head>
+<body>
+
+<button id="btn">Stop!</button>
+<img id="animObj" src="../../images/logo.png" />
+
+</body>
+</html>

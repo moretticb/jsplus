@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ Library</title>
+
+<script>
+
+function getBehaviorGraph(b){
+	return '<br><iframe frameborder="0" scrolling="no" style="border: none; width: 950px; height: 350px" src="../examples/behavGraph.html#'+b+'"></iframe>';
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+
+<style>
+
+body {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="title" class="docPageTitle">
+	AJAX.getRequestPage( )
+    <div id="sep" class="sep"></div>
+</div>
+
+<p class="subSubTitle">Description</p>
+<p class="text">Gets the current request page of an <a href="cls_AJAX.html">AJAX</a> instance.</p>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Compatibility</p>
+<div class="text">
+    <div class="ieLogo" title="Internet Explorer"></div> <div class="ffLogo" title="Firefox"></div> <div class="chrLogo" title="Chrome"></div> <div class="safLogo" title="Safari"></div> <div class="opLogo" title="Opera"></div> 
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Prototype</p>
+<div class="codeBox">
+    <pre>
+getRequestPage():String
+    </pre>
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Returns</p>
+<p class="text">
+	A string containing a request page
+</p>
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Parameters</p>
+<!-- <p class="text">No parameters</p> -->
+<p class="text">No parameters</p>
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Examples</p>
+
+
+
+<div class="codeBox">
+    <pre>
+function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+alert(ajax.getRequestPage()); //Displays requestPage.php
+    </pre>
+</div>
+
+
+<div class="sep"></div>
+
+
+</body>
+</html>

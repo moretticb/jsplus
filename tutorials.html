@@ -1,0 +1,99 @@
+<!--<?php
+	$pageNum = 3;
+	$pageName = "Tutorials";
+	require_once("./basicChanges.php");
+?>-->
+
+<script>
+	document.title = "JS+ Library - Tutorials";
+	var links = $("divBtns").getElementsByTagName("a");
+	if(currPage > -1){
+		links[currPage].className = links[currPage].className.split("Sel").join("");
+	}
+	links[3].className = links[3].className+"Sel";
+	currPage = 3;
+</script>
+
+<div class="tituloPagina">
+    Tutorials
+</div>
+
+<div class="pageContent">
+	<div class="txtBlock" style="width: 460px; height: 171px; float: left;">
+        <div class="selectTutorial">Select a tutorial</div>
+        <div style="margin-top: 25px;">
+            <div class="tutorialNavArea">
+            	<div class="leftArrowArea">
+                	<div id="leftArrowButtonBehavior" class="leftArrowButtonBehavior"><div id="lA" class="leftArrow"></div></div>
+				</div><!--
+                --><div id="thumbsArea" class="thumbsArea">
+                
+                	<script>
+					
+					colocaItens();
+					
+					</script>
+                
+                </div><!--
+                --><div class="rightArrowArea">
+                	<div id="rightArrowButtonBehavior" class="rightArrowButtonBehavior"><div id="rA" class="rightArrow"></div></div>
+                </div><!--
+                -->
+            </div>
+            <div id="bottomArea" class="bottomArea">
+	                <div class="pageDotChecked" title="1"></div>
+                	<div class="pageDot" title="2"></div>
+                    <div class="pageDot" title="3"></div>
+                    <div class="pageDot" title="4"></div>
+                </div>
+        </div>
+    </div>
+    
+    <div class="blockSeparator">&nbsp;</div>
+    
+    <div class="txtBlock" style="width: 400px; height: 171px; float: right;">
+	    <div class="detailsTutorial">Details</div>
+    	<div id="nothingSelected" style="display: inline-block; width: 100%; text-align: center; padding-top: 150px;">
+        	No tutorial selected
+        </div>
+        <div id="loaderBox" style="display: none; width: 100%; text-align: center; padding-top: 150px;">
+        	<div id="loaderBoxLoader" style="display: inline-block;"></div>
+            <script> new Spriter("loaderBoxLoader", spriteSize, spriteSize, "images/loader_black.png", 5, 60, -1, 0); </script>
+        </div>
+    	<div id="previewBox" style="display: none; width: 100%;">
+            <div class="tHeader" style="margin-top: 30px;">
+                <div class="tPic"><img src="images/imgteste.jpg" /><div class="tPicFx"></div></div>
+                <div class="tInfo">
+                	<div id="fechaBtn" class="fechaBtn" onmousedown="this.className='fechaBtnDown';" onmouseup="this.className='fechaBtn';" onclick="fechaPreviewBox();"></div>
+                    <div id="lblTitulo" class="tTitle">Tutorial name</div>
+                    <div id="lblData">Date</div>
+                    <div id="lblTipo">Type</div>
+                </div>
+            </div>
+            <p id="lblDescricao" style="text-align: justify; float: left;">Tutorial description</p>
+    
+            <div style="text-align: center; clear: both;">
+                &nbsp;<br /><div id="showTutorialButton" class="botao" onmousedown="this.className='botaoDown'; return false;" onmouseup="this.className='botao';">
+                    <div class="btnShowTutorial"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+
+$("leftArrowButtonBehavior").onmouseover = function(){ arrowEvent(LEFT_ARROW, EVT_ROLLOVER) };
+$("leftArrowButtonBehavior").onmouseout = function(){ arrowEvent(LEFT_ARROW, EVT_ROLLOUT) };
+$("leftArrowButtonBehavior").onclick = function(){
+	pageAnimation(PREV_PAGE, DEST_OUT);
+};
+
+$("rightArrowButtonBehavior").onmouseover = function(){ arrowEvent(RIGHT_ARROW, EVT_ROLLOVER) };
+$("rightArrowButtonBehavior").onmouseout = function(){ arrowEvent(RIGHT_ARROW, EVT_ROLLOUT) };
+$("rightArrowButtonBehavior").onclick = function(){
+	pageAnimation(NEXT_PAGE, DEST_OUT);
+};
+
+</script>

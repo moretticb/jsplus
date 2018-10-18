@@ -1,0 +1,22 @@
+<!--<?php
+	$pageNum = 2;
+	$pageName = "Documentation";
+	require_once("./basicChanges.php");
+?>-->
+
+<script>
+	document.title = "JS+ Library - Documentation";
+	var links = $("divBtns").getElementsByTagName("a");
+	if(currPage > -1){
+		links[currPage].className = links[currPage].className.split("Sel").join("");
+	}
+	links[2].className = links[2].className+"Sel";
+	currPage = 2;
+</script>
+
+
+<div class="docsImage" style="cursor: pointer;" onclick="window.open('docs', 'JS+ Documentation');">
+    <div class="tituloPagina">
+        Documentation
+    </div>
+</div>

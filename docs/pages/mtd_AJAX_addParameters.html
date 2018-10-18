@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ Library</title>
+
+<script>
+
+function getBehaviorGraph(b){
+	return '<br><iframe frameborder="0" scrolling="no" style="border: none; width: 950px; height: 350px" src="../examples/behavGraph.html#'+b+'"></iframe>';
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+
+<style>
+
+body {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="title" class="docPageTitle">
+	AJAX.addParameters( )
+    <div id="sep" class="sep"></div>
+</div>
+
+<p class="subSubTitle">Description</p>
+<p class="text">Appends query string parameters of an <a href="cls_AJAX.html">AJAX</a> instance. In order to avoid unnecessary accumulation of parameters, one can use <a href="mtd_AJAX_setInputParameters.html">setInputParameters</a> method. Since there is no getter for input parameters, one can check the current state of the data to be sent through the HTTP request using <a href="mtd_AJAX_getQueryString.html">getQueryString</a> method.</p>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Compatibility</p>
+<div class="text">
+    <div class="ieLogo" title="Internet Explorer"></div> <div class="ffLogo" title="Firefox"></div> <div class="chrLogo" title="Chrome"></div> <div class="safLogo" title="Safari"></div> <div class="opLogo" title="Opera"></div> 
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Prototype</p>
+<div class="codeBox">
+    <pre>
+addParameters(parametersObject:Object):Void
+    </pre>
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Returns</p>
+<p class="text">
+	None
+</p>
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Parameters</p>
+<!-- <p class="text">No parameters</p> -->
+
+<table class="documentTable">
+	<tr>
+    	<th width="200px">Parameter</th>
+        <th width="100px">Type</th>
+        <th width="*">Description</th>
+    </tr>
+    <!--<tr>
+    	<td>elementId</td>
+        <td>String</td>
+        <td>The id of the element to be tweened</td>
+    </tr>-->
+    <tr><td>parametersObject</td><td>Object</td><td>The parameters to be sent to request page. Object properties, as well as their values are internally converted and respectively assigned to parameters and values of a query string.</td></tr>
+</table>
+
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Examples</p>
+
+
+
+<div class="codeBox">
+    <pre>
+function handleResponse() {}
+var ajax = new AJAX("POST", "requestPage.php", true, null, handleResponse);
+ajax.setInputParameters({name: "Kyle Smith"});
+alert(ajax.getQueryString()); //Displays name=Kyle%20Smith
+ajax.addParameters({age: 22});
+alert(ajax.getQueryString()); //Displays name=Kyle%20Smith&age=22
+    </pre>
+</div>
+
+
+<div class="sep"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ test page - AJAX</title>
+<script type="text/javascript" src="../../js/jsplus.js"></script>
+
+<style>
+
+html, body, input {
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 11px;
+}
+
+.red, .green { font-weight: bold; }
+.red { color: #930; }
+.green { color: #9C0; }
+
+</style>
+
+<script>
+
+function handleResponse(){
+	if(this.readyState == AJAX.prototype.LOADED)
+		$("msg").innerHTML = 'Number '+$('num').value+' is '+(this.responseText=='1'?'<span class="red">odd</span>':'<span class="green">even</span>')+'.';
+	else
+		$("msg").innerHTML = "Loading";
+}
+
+function makeRequest(){
+	var ajax = new AJAX("POST", "AJAXRequestPage.php", true, {num: $("num").value}, handleResponse);
+	if(!ajax.makeRequest()){
+		alert("Error on making the request.");
+	}
+}
+
+</script>
+
+</head>
+<body>
+
+<table>
+	<tr>
+    	<th>Number:</th>
+        <td><input type="text" id="num" /></td>
+        <td rowspan="2"><button onclick="makeRequest()" style="width: 100%; height: 100%">Check!</button></td>
+	</tr>
+    <tr>
+    	<td colspan="2">&gt;<div id="msg" style="display: inline;">&nbsp;</div></td>
+    </tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ test page - Spriter</title>
+<script type="text/javascript" src="../../js/jsplus.js"></script>
+
+<script>
+
+window.onload = function(){
+	var blueguy = new Spriter("spritePlace1", 118, 118, "sprite.png", 6, 18, -1, 8, false);
+	new Spriter("spritePlace2", 64, 64, "sprite3.png", 4, 16, -1, 10, true);
+	new Spriter("spritePlace3", 60, 60, "pingosprite.jpg", 10, 80, 0);
+	new Spriter("spritePlace4", 33, 45, "sonicsprite.jpg", 4, 4, -1);
+	new Spriter("spritePlace5", 45, 41, "../../game/jsgame/images/charSprite1.png", 15, 15, -1);
+	new Spriter("spritePlace6", 45, 41, "../../game/jsgame/images/charSprite2.png", 15, 15, -1);
+	
+	blueguy.onFrameChange = function(newFrame){
+		$("frameNum").innerHTML = "#"+newFrame;
+	}
+	
+	$("stopBtn").onclick = function(){
+		blueguy.stop();
+	}
+	
+	$("playBtn").onclick = function(){
+		blueguy.play();
+	}
+	
+	$("gotoAndStopBtn").onclick = function(){
+		var frame = parseInt($("frameField").value);
+		blueguy.gotoAndStop(frame);
+	}
+	
+	$("gotoAndPlayBtn").onclick = function(){
+		var frame = parseInt($("frameField").value);
+		blueguy.gotoAndPlay(frame);
+	}
+	
+	$("setFpsBtn").onclick = function(){
+		var newFps = parseInt($("fpsField").value);
+		setFPS(newFps);
+	}
+}
+
+</script>
+
+<style>
+
+.spritePlace{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+.mainTbl {
+	font-variant: small-caps;
+	border-collapse: collapse;
+}
+
+.mainTbl td {
+	border: 1px solid #444;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+
+.innerTbl td {
+	border: none;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="mainTbl" border="0">
+	<tr>
+    	<th colspan="2">Sprite</th>
+    </tr>
+    <tr>
+    	<td colspan="2" style="text-align: center">
+        	<div class="spritePlace" id="spritePlace1"></div>
+        </td>
+	<tr style="font-variant: small-caps">
+    	<th>operation</th>
+        <th>Frame <div style="display: inline-block; width: 30px; text-align: left;" id="frameNum"></div></th>
+	</tr>
+    <tr>
+    	<td>
+	        <button id="stopBtn" style="width: 100%">stop</button><br />
+	        <button id="playBtn" style="width: 100%">play</button><br />
+            <button id="gotoAndStopBtn" style="width: 100%">gotoAndStop</button><br />
+            <button id="gotoAndPlayBtn" style="width: 100%">gotoAndPlay</button>
+		</td>
+        <td>
+        	<table class="innerTbl">
+            	<tr>
+                	<td>Frame</td>
+                    <td><input style="width: 30px;" type="text" id="frameField" /></td>
+                </tr>
+                <tr>
+                	<td>FPS</td>
+                    <td><input style="width: 30px;" type="text" id="fpsField" /><button id="setFpsBtn">Set FPS</button></td>
+                </tr>
+            </table>
+		</td>
+	</tr>
+</table>
+
+<div class="spritePlace" id="spritePlace2"></div>
+<div class="spritePlace" id="spritePlace3"></div>
+<div class="spritePlace" id="spritePlace4"></div>
+<div class="spritePlace" id="spritePlace5"></div>
+<div class="spritePlace" id="spritePlace6"></div>
+
+</body>
+</html>

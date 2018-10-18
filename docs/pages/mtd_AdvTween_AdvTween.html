@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ Library</title>
+
+<script>
+
+function getBehaviorGraph(b){
+	return '<br><iframe frameborder="0" scrolling="no" style="border: none; width: 950px; height: 350px" src="../examples/behavGraph.html#'+b+'"></iframe>';
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+
+<style>
+
+body {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="title" class="docPageTitle">
+	AdvTween.AdvTween( )
+    <div id="sep" class="sep"></div>
+</div>
+
+<p class="subSubTitle">Description</p>
+<p class="text">A <a href="cls_Tween.html">Tween based</a> feature used to interpolate a value that can be used to animate one or more elements.</p>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Compatibility</p>
+<div class="text">
+    <div class="ieLogo" title="Internet Explorer"></div> <div class="ffLogo" title="Firefox"></div> <div class="chrLogo" title="Chrome"></div> <div class="safLogo" title="Safari"></div> <div class="opLogo" title="Opera"></div> 
+</div>
+
+<div class="sep"></div>
+
+<p class="subSubTitle">Prototype</p>
+<div class="codeBox">
+    <pre>
+AdvTween(easeType:Function, initValue:Number, finalValue:Number, duration:Number, useSeconds:Boolean, theFunction:Function)
+    </pre>
+</div>
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Parameters</p>
+<!-- <p class="text">No parameters</p> -->
+
+<table class="documentTable">
+	<tr>
+    	<th width="200px">Parameter</th>
+        <th width="100px">Type</th>
+        <th width="*">Description</th>
+    </tr>
+    <!--<tr>
+    	<td>elementId</td>
+        <td>String</td>
+        <td>The id of the element to be tweened</td>
+    </tr>-->
+    <tr><td>easeType</td><td>Function</td><td>The tween behavior function. <a href="cls_None.html">None</a>, <a href="cls_Back.html">Back</a>, <a href="cls_Elastic.html">Elastic</a>, <a href="cls_Quad.html">Quad</a>, <a href="cls_Cubic.html">Cubic</a>, <a href="cls_Quartic.html">Quartic</a>, <a href="cls_Quintic.html">Quintic</a>, <a href="cls_Sine.html">Sine</a>, <a href="cls_Expo.html">Expo</a> and <a href="cls_Circ.html">Circ</a> are examples of the available behaviors.</td></tr><tr><td>initValue</td><td>Number</td><td>Initial value</td></tr><tr><td>finalValue</td><td>Number</td><td>Final value</td></tr><tr><td>duration</td><td>Number</td><td>The duration of the tween in frames</td></tr><tr><td>useSeconds</td><td>Boolean</td><td>If true, duration is considered as seconds. Otherwise, duration is considered as frames</td></tr><tr><td>theFunction</td><td>Function</td><td>The function to be executed every since the value changes. The current state of the interpolated value can be retrieved by the first parameter of this function.</td></tr>
+</table>
+
+
+<div class="sep"></div>
+
+
+<p class="subSubTitle">Examples</p>
+
+<div class="documentBox">
+	<!--<a href="#" target="_blank" >Example 1</a>-->
+    <a href="../examples/advTweenEx1.html" target="_blank" >Example 1</a> | <a href="../examples/advTweenEx2.html" target="_blank" >Example 2</a>
+</div>
+<br />
+
+
+
+<div class="codeBox">
+    <pre>
+new AdvTween(Quad.prototype.easeInOut, 100, 200, 10, false, function(value){
+	$('objA').width = value+"px";
+	$('objB').width = value+"px";
+});
+    </pre>
+</div>
+
+
+<div class="sep"></div>
+
+
+</body>
+</html>

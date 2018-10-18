@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS+ test page - AdvTween</title>
+<script type="text/javascript" src="../../js/jsplus.js"></script>
+
+<style>
+
+.colorBtn {
+	display: inline-block;
+	background-color: #00ff00;
+	width: 45px;
+	height: 45px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	cursor: crosshair;
+}
+
+.colors {
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+}
+
+</style>
+
+<script>
+
+window.onload = function(){
+	c = getRandomColor();
+	document.body.style.backgroundColor = document.getElementById("targetColor").value = c;
+}
+
+var lastColor = hexcolor2channels("#000000");
+var newColor = hexcolor2channels("#000000");
+var diffColors = null;
+var colorFade = null;
+function fade(){
+	if(window.colorFade != null)
+		return;
+
+	window.lastColor = rgbstr2channels(document.body.style.backgroundColor);
+	window.newColor = hexcolor2channels(document.getElementById("targetColor").value);
+	window.diffColors = channelDiff(newColor,lastColor);
+	
+	window.colorFade = new AdvTween(Quad.prototype.easeOut, 0, 1, 1, true, function(value){
+		var tempColor = channels2hexcolor(channelSum(lastColor,ponderChannels(diffColors,value)));
+		document.body.style.backgroundColor = tempColor;
+	});
+	
+	window.colorFade.onMotionFinished = function(){
+		window.colorFade = null;
+	}
+}
+
+function rgbstr2channels(str){
+	var channels = str.slice(4,-1).split(", ");
+	channels[0] *= 1; channels[1] *= 1; channels[2] *= 1;
+	return channels;
+}
+
+function hexcolor2channels(hex){
+	return [
+		parseInt(hex.substr(1,2),16),
+		parseInt(hex.substr(3,2),16),
+		parseInt(hex.substr(5,2),16)
+	];
+}
+
+function channels2hexcolor(channels){
+	hex = "#";
+	for(var i=0;i<channels.length;i++){
+		h = channels[i].toString(16).toUpperCase();
+		h = h.length == 1 ? "0"+h : h;
+		hex += h;
+	}
+	return hex;
+}
+
+function channelDiff(channelsA, channelsB){
+	channelsC = [];
+	for(var i=0;i<channelsA.length;i++)
+		channelsC.push(channelsA[i]-channelsB[i]);
+	return channelsC;
+}
+
+function channelSum(channelsA, channelsB){
+	channelsC = [];
+	for(var i=0;i<channelsA.length;i++)
+		channelsC.push(channelsA[i] + channelsB[i]);
+	return channelsC;
+}
+
+function ponderChannels(channels, weight){
+	var c = [];
+	for(var i=0;i<channels.length;i++)
+		c.push(parseInt(channels[i] * weight));
+	return c;
+}
+
+</script>
+
+</head>
+<body>
+
+<div class="colors">
+
+Pick a color or type a hex code to fade the background<br>
+
+<script>
+
+function fadeTo(c){
+	document.getElementById("targetColor").value = c;
+	fade();
+}
+
+function getRandomColor(){
+	return channels2hexcolor(rgbstr2channels("rgb("+Math.round(Math.random()*255)+", "+Math.round(Math.random()*255)+", "+Math.round(Math.random()*255)+")"));
+}
+
+for(var i=0;i<25;i++){
+	c = getRandomColor();
+	document.write('<div class="colorBtn" style="background-color: '+c+';" onclick="fadeTo(\''+c+'\')"></div>');
+}
+	
+</script>
+
+<input id="targetColor" type="text" /> <button onclick="fade()">Fade</button>
+
+</div>
+
+</body>
+</html>
