@@ -1,1 +1,1 @@
-master_branch
+ghpages_branch
