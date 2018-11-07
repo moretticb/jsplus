@@ -9,7 +9,7 @@
 
 window.onload = function(){
 	var blueguy = new Spriter("spritePlace1", 118, 118, "sprite.png", 6, 18, -1, 8, false);
-	new Spriter("spritePlace2", 64, 64, "sprite3.png", 4, 16, -1, 10, true);
+	new Spriter("spritePlace2", 64, 64, "sprite3.png", 4, 16, 3);
 	new Spriter("spritePlace3", 60, 60, "pingosprite.jpg", 10, 80, 0);
 	new Spriter("spritePlace4", 33, 45, "sonicsprite.jpg", 4, 4, -1);
 	new Spriter("spritePlace5", 45, 41, "../../game/jsgame/images/charSprite1.png", 15, 15, -1);
@@ -68,6 +68,25 @@ window.onload = function(){
 	border: none;
 }
 
+.examplesTab .details {
+	width: 300px;
+	text-align: left;
+	border-left: 1px #ccc solid;
+	padding-left: 11px;
+}
+
+.examplesTab .details:hover {
+	border-left: 2px #1574CE solid;
+	padding-left: 10px;
+	background-color: #D7E2EC;
+}
+
+.examplesTab td {
+	width: 64px;
+	height: 64px;
+	text-align: center;
+}
+
 </style>
 
 </head>
@@ -107,11 +126,27 @@ window.onload = function(){
 	</tr>
 </table>
 
-<div class="spritePlace" id="spritePlace2"></div>
-<div class="spritePlace" id="spritePlace3"></div>
-<div class="spritePlace" id="spritePlace4"></div>
-<div class="spritePlace" id="spritePlace5"></div>
-<div class="spritePlace" id="spritePlace6"></div>
+<table class="examplesTab">
+	<tr>
+		<td><div class="spritePlace" id="spritePlace2"></div></td>
+		<td class="details">All frames, looping 3 times<br><a target="_blank" href="sprite3.png">Sprite</a></td>
+	</tr>
+	<tr>
+		<td style="background-color: #C3C3C3"><div class="spritePlace" id="spritePlace3"></div></td>
+		<td class="details">All frames, playing once<br><a target="_blank" href="pingosprite.jpg">Sprite</a></td>
+	</tr>
+	<tr>
+		<td style="background-color: #000000;"><div class="spritePlace" id="spritePlace4"></div></td>
+		<td class="details">All frames, looping infinitely.<br><a target="_blank" href="sonicsprite.jpg">Sprite</a></td>
+	</tr>
+	<tr>
+		<td><div class="spritePlace" id="spritePlace5"></div></td>
+		<td class="details" rowspan="2">All frames, looping infinitely.<br><a target="_blank" href="../../game/jsgame/images/charSprite1.png">Sprite 1</a><br><a target="_blank" href="../../game/jsgame/images/charSprite2.png">Sprite 2</a></td>
+	</tr>
+	<tr>
+		<td><div class="spritePlace" id="spritePlace6"></div></td>
+	</tr>
+</table
 
 </body>
 </html>
